@@ -1,0 +1,19 @@
+# https://github.com/MichaelBelgium/flarum-discussion-views/blob/master/locale/en.yml
+
+core:
+  forum:
+    index_sort:
+      popular_button: 熱門
+      unpopular_button: 非熱門
+
+flarum_discussion_views:
+  forum:
+    modal_resetviews:
+      title: 重設貼文瀏覽次數
+      submit: 提交
+      label: 設定貼文瀏覽次數
+    discussion_controls:
+      resetviews_button: 設定瀏覽次數
+  admin:
+      permissions:
+          reset_views_label: 設定貼文瀏覽次數

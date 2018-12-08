@@ -1,0 +1,63 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-flags.yml
+
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: 舉報貼文
+      view_flags_label: 查看被舉報的貼文
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: 論壇守則連結
+      title: 舉報設定
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: 感謝舉報，管理員稍後會審閱此帖。
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: 不雅
+      reason_inappropriate_text: "此帖包含攻擊性、侮辱性詞句或違反了<a>論壇守則</a>"
+      reason_off_topic_label: "離題"
+      reason_off_topic_text: 此帖與當前討論主題無關
+      reason_other_label: 其他
+      reason_spam_label: 垃圾
+      reason_spam_text: 這是廣告貼
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: 無舉報
+      item_text: "{username} 在 <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: 撤銷舉報
+      flagged_by_text: "已被 {username} 舉報"
+      flagged_by_with_reason_text: "因 {reason} 被 {username} 舉報"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: 舉報
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: 舉報貼文
+    flagged_posts: 被舉報的貼文
