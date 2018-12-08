@@ -16,12 +16,12 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: 彩色標頭
+      colored_header_label: 彩色頁眉
       colors_heading: 顏色
       colors_text: "選擇兩種顏色作為論壇主色調。第一種作為突出顯示顏色，第二種作為背景元素樣式。"
       custom_footer_heading: 客製化頁腳
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: 客製化標頭
+      custom_header_heading: 客製化頁眉
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: 客製化樣式
       custom_styles_text: 新增 LESS/CSS 程式碼以客製化論壇外觀，此設定將覆蓋 Flarum 預設樣式。
@@ -54,7 +54,7 @@ core:
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: 清除快取
-      tools_button: 工具按鈕
+      tools_button: 工具
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -136,7 +136,7 @@ core:
       extensions_button: 延伸套件
       extensions_text: 為你的論壇新增額外功能
       permissions_button: 權限設定
-      permissions_text: 設定使用者訪問及操作權限
+      permissions_text: 設定會員訪問及操作權限
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -160,7 +160,7 @@ core:
       view_discussions_label: 查看貼文
       view_last_seen_at_label: 查看最後活動時間
       view_post_ips_label: 查看 IP 地址
-      view_user_list_label: 查看使用者列表
+      view_user_list_label: 查看會員列表
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -252,7 +252,7 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: 激活使用者
+      activate_button: 激活會員
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: 群組
@@ -260,7 +260,7 @@ core:
       password_label: => core.ref.password
       set_password_label: 設定新密碼
       submit_button: => core.ref.save_changes
-      title: 編輯使用者
+      title: 編輯會員
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -269,7 +269,7 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: 已將包含密碼重設連結的郵件發送至該郵箱，若未收到請檢查垃圾箱。
-      not_found_message: 沒有使用此郵箱位址註冊的使用者。
+      not_found_message: 沒有使用此郵箱位址註冊的會員。
       submit_button: 重設密碼
       text: 請鍵入郵箱位址，我們將發送密碼重設連結至該郵箱。
       title: 忘記密碼
@@ -311,7 +311,7 @@ core:
       sign_up_text: "還沒有帳戶？ <a>立即註冊</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: 使用者名稱或郵箱
+      username_or_email_placeholder: 會員名稱或郵箱
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -484,7 +484,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "使用者名稱僅能包含字母、數字及橫線"
+    invalid_username_message: "會員名稱僅能包含字母、數字及橫線"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -542,8 +542,8 @@ core:
     confirmation_email_sent: "驗證郵件已發送至 {email}，若未收到請檢查垃圾箱。"
     custom_footer_text: 新增 HTML 代碼顯示於頁面底部。
     custom_footer_title: 編輯客製化頁腳
-    custom_header_text: "新增要顯示在頁面頂部的，在 Flarum 自有標頭之上的 HTML。"
-    custom_header_title: 編輯客製化標頭
+    custom_header_text: "新增要顯示在頁面頂部的，在 Flarum 自有頁眉之上的 HTML。"
+    custom_header_title: 編輯客製化頁眉
     delete: 刪除
     delete_forever: 永久刪除
     discussions: 貼文
@@ -569,8 +569,8 @@ core:
     sign_up: 註冊
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 新增貼文
-    username: 使用者
-    users: 使用者
+    username: 會員
+    users: 會員
     write_a_reply: 撰寫回覆...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
