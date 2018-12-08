@@ -1,0 +1,20 @@
+# https://github.com/ReFlar/cookie-consent/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+cookie-consent:
+  admin:
+    settings:
+      title: Cookie 確認
+      ctext: 請填入顯示於通知條上的內容
+      blink: 請填入 Cookie 使用政策的連結
+      btext: 請填入顯示於關閉按鈕上的文本
+      lrntext: 請填入「瞭解更多」連結的文本
+      bcolor: 請填入背景色色值（RGB）
+      bcolor1: 請填入前景色色值（RGB）
+      bcolor2: 請填入允許按鈕的色值（RGB）
+
+    themes:
+        blocky: 像素
+        edgeless: 無邊框
+        classic: 經典
+        custom: 客製化

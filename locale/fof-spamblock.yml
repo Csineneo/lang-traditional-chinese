@@ -1,0 +1,13 @@
+# https://github.com/FriendsOfFlarum/spamblock/blob/master/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+fof-spamblock:
+  forum:
+    user_controls:
+      spammer_button: 垃圾蟲
+      spammer_confirmation: "你確定想要 \n• 隱藏全部用戶的貼文及回覆 \n• [flarum/suspend] 封禁此用戶"
+
+  admin:
+    permissions:
+      spamblock_users_label: 將此用戶標記為垃圾蟲
+
