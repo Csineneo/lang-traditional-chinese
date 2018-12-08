@@ -1,0 +1,88 @@
+# https://github.com/flagrow/upload/blob/master/resources/locale/en.yml
+# Last updated: Sat, 08 Dec 2018 16:54:32 +0800
+
+flagrow-upload:
+    forum:
+        buttons:
+            attach: 上傳
+        states:
+            loading: 載入中
+            success: 成功
+            error: 錯誤
+    admin:
+        templates:
+          image: 預設圖片下載模板
+          image_description: >
+              顯示圖片縮略圖並經由 php 代理下載，支援統計及熱鏈保護
+          file: 預設檔案下載模板
+          file_description: >
+              顯示檔案名稱及基本信息，經由 php 代理下載，支援統計及熱鏈保護
+          image-preview: 完整圖片預覽模板
+          image-preview_description: >
+              於行內顯示完整圖片。不支援下載、統計及熱鏈保護
+        permissions:
+            upload_label: 上傳檔案
+            download_label: 下載檔案
+        upload_methods:
+            local: 本地
+            aws-s3: 亞馬遜 S3
+            imgur: Imgur
+            ovh-svfs: OVH SVFS
+        labels:
+            preferences:
+                title: 偏好設定
+                max_file_size: 最大檔案大小 (單位 KB)
+                mime_types: 設定 MIME 類型以及上傳接口
+            resize:
+                title: 圖片縮放
+                toggle: 縮放圖片
+                max_width: 最大圖片寬度
+                max_height: 最大圖片高度
+            watermark:
+                title: 圖片水印
+                toggle: 圖片水印
+                position: 水印位置
+                file: 上傳水印圖片
+            local:
+                title: 本地存儲設定
+                cdn_url: CDN 連結 (在檔案前)
+            imgur:
+                title: Imgur 圖片存儲設定
+                client_id: Imgur 用戶端 ID
+            aws-s3:
+                title: AWS S3 存儲設定
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: 區域
+            ovh-svfs:
+                title: OVH SVFS 存儲設定
+                container: 容器
+                tenantid: Tenant ID
+                username: 使用者名稱
+                password: 密碼
+                region: 區域
+            disable-hotlink-protection:
+                title: 停用熱鏈保護
+                toggle: 停用
+            disable-download-logging:
+                title: 停用下載日誌
+                toggle: 停用
+        buttons:
+            save: 儲存更改
+        help_texts:
+            description: >
+                配置上傳服務及偏好設定
+            mime_types: >
+                請於此設定對映。每一個 MIME 類型的正規表示式都將由指定的上傳接口處理
+            download_templates: >
+                下載模板是上傳的檔案如何在論壇上顯示
+                比如預覽、按鈕等，目前支援的有：
+            resize: >
+                您可以選擇是否在上傳圖片前調整圖片大小，您也可以設定圖片最大長寬（px），圖片大小調整將會保持圖片長寬比例
+            watermark: >
+                在圖片上傳時新增水印，僅支援非 gif 圖片
+            disable-hotlink-protection: >
+                熱鏈保護可防止從其他站點下載。目前的方式需求 csrf token 及帖文 ID
+            disable-download-logging: >
+                開啟此設定可查看下載量及未來可能的統計數據。
