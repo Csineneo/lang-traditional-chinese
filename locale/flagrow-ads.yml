@@ -1,0 +1,22 @@
+# https://github.com/flagrow/ads/blob/master/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+flagrow-ads:
+    admin:
+        buttons:
+            save: 儲存設定
+        positions:
+            under-header:
+                title: 頂部導航標題下的廣告位
+                placeholder: 於此處填入廣告程式碼
+            between-posts:
+                title: 貼文間的廣告位
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+            under-nav-items:
+                title: 首頁左側節點列表下的廣告位
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+        settings:
+            start-from-post: 指定從第幾個貼文開始顯示廣告
+            between-n-posts: 指定放置廣告的貼文數
+        tab:
+            description: 廣告位置及偏好設定

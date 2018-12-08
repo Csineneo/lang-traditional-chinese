@@ -1,4 +1,5 @@
-# https://gitlab.com/ReDevelopers/ReFlar/reactions/blob/master/locale/en.yml
+# https://github.com/ReFlar/reactions/blob/master/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
 
 reflar-reactions:
   forum:
@@ -21,6 +22,12 @@ reflar-reactions:
         Helptext: 鍵入 emoji 或 font-awesome 的名稱并選擇你喜歡的類型
         help:
           identifier: 標識
+
+      convert:
+        help: 若你只是更新延伸套件，你的回應將被轉換。若你已安裝此延伸套件，你可以安心地忽略這條訊息。
+        button: 轉換舊地回應
+        converting: 正在轉換回應中，請於幾分鐘後重載頁面以查看進度。（轉換需時依賴於你的回應數量）
+        converted: "成功轉換全部 {number} 個讚"
 
       settings:
         save_settings: 儲存設定
