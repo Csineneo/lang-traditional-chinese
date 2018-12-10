@@ -1,0 +1,31 @@
+# https://github.com/flagrow/fonts/blob/master/resources/locale/en.yml
+# Mon, 10 Dec 2018 13:54:47 +0800
+
+flagrow-fonts:
+    admin:
+        nav:
+            title: 字型
+            description: 管理用於論壇的字型
+        browse:
+            label:
+                sort: 排序
+                search: 搜尋
+            sort:
+                alpha: 字母序
+                date: 最近新增
+                popularity: 熱度
+                trending: 趨勢
+                enabled: 已啟用
+            loader:
+                more: 載入更多
+                loading: 正在載入...
+            select:
+                enable: 啟用
+                update: 更新
+            sample-text: The quick brown fox jumps over the lazy dog.
+        modal:
+            settings:
+                title: Flagrow 字型設定
+                field:
+                    googleApiKey: Google API Key
+                    googleApiKeyDescription: 您必須創建一個 Google Fonts API Key 並填入此處。最快的方式是訪問<a>這裡</a>並點擊「Get a key」
