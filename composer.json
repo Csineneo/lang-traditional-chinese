@@ -12,18 +12,18 @@
         }
     ],
     "support": {
-        "source": "https://github.com/Csineneo/lang-traditional-chinese.git",
+        "source": "https://github.com/Csineneo/lang-traditional-chinese",
 		"issues": "https://vivaldi.club/t/flarum"
     },
     "require": {
-		"flarum/core": "^0.1.0-beta.8"
+			"flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
 		"branch-alias": {
 			"dev-master": "0.1.x-dev"
 		},
         "flarum-extension": {
-            "title": "Chinese (zh_TW)",
+            "title": "正體中文語言包",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#fff",
