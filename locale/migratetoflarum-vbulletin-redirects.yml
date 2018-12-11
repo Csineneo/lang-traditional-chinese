@@ -1,0 +1,24 @@
+# https://github.com/migratetoflarum/vbulletin-redirects/blob/master/locale/en.yml
+# Tue, 11 Dec 2018 20:27:48 +0800
+
+migratetoflarum-vbulletin-redirects:
+    admin:
+        settings:
+            title: VBulletin 跳轉設定
+
+            disclaimer: >
+                請謹慎修改這些設定。
+                這些值已在遷移期間設定，可能不需要任何修改！
+            field:
+                discussionIncrement: 貼文 (討論串) ID 增量
+                userIncrement: 會員 ID 增量
+                tagIncrement: 節點 (論壇) ID 增量
+                redirectStatus: 跳轉類型
+
+            option:
+                301: 301 (永久跳轉，適用於線上)
+                302: 302 (臨時跳轉，適用於測試)
+
+            button:
+                showAdvanced: 顯示高級設定
+                hideAdvanced: 隱藏高級設定
