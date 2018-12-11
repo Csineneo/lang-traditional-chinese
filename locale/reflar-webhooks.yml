@@ -1,0 +1,99 @@
+# https://github.com/ReFlar/webhooks/blob/master/resources/locale/en.yml
+# Tue, 11 Dec 2018 20:27:48 +0800
+
+reflar-webhooks:
+  actions:
+    discussion:
+      started: "已新增貼文 `{1}`"
+      renamed:
+        title: "已重命名貼文 `{1}`"
+        description: "新標題: {1}"
+      hidden: "已隱藏貼文 `{1}`"
+      restored: "已復原貼文 `{1}`"
+      deleted: "已刪除的貼文 `{1}`"
+
+    group:
+      created: "已新增群組 `{1}`"
+      renamed: "已重命名群組為 `{1}`"
+      deleted: "已刪除群組`{1}`"
+
+    post:
+      posted: "已新增回覆於 `{1}`"
+      revised: "已編輯回覆於 `{1}`"
+      hidden: "隱藏回覆於 `{1}`"
+      restored: "已復原回覆於 `{1}`"
+      deleted: "已刪除回覆於 `{1}`"
+
+    user:
+      registered: 已新增會員
+      renamed:
+        title: "已更改會員名為 `{1}`"
+        description: "新會員名: {1}"
+      deleted: "已刪除會員 `{1}`"
+
+  adapters:
+    errors:
+      404: Webhook 未找到
+
+  admin:
+    errors:
+      service_not_found: 服務 '{service}' 未找到。
+      url_invalid: 所選服務的 URL 無效。
+
+    nav:
+      desc: 為你的論壇設定客製化 webhook。
+    settings:
+      title: Webhooks
+
+      help:
+        disabled: 這個 webhook 因沒有啟用任何 event 而已停用。
+        general: 於此你可以新增、編輯、移除 webhook。
+        url: Webhook 執行端點。
+
+      modal:
+        title: Webhook 設定
+        description: 於此你可以更改 webhook 調用的 event。
+
+      services:
+        discord: Discord
+        slack: Slack
+
+      actions:
+        flarum:
+          discussion:
+            title: Flarum 貼文
+
+            started: 已新增
+            renamed: => reflar-webhooks.ref.renamed
+            hidden: => reflar-webhooks.ref.hidden
+            restored: => reflar-webhooks.ref.restored
+            deleted: => reflar-webhooks.ref.deleted
+
+          group:
+            title: Flarum 群組
+
+            created: 已新增
+            renamed: => reflar-webhooks.ref.renamed
+            deleted: => reflar-webhooks.ref.deleted
+
+          post:
+            title: Flarum 回覆
+
+            posted: 已回覆
+            revised: 已編輯
+            hidden: => reflar-webhooks.ref.hidden
+            restored: => reflar-webhooks.ref.restored
+            deleted: => reflar-webhooks.ref.deleted
+
+          user:
+            title: Flarum 會員
+
+            registered: 已註冊
+            renamed: => reflar-webhooks.ref.renamed
+            deleted: => reflar-webhooks.ref.deleted
+
+  ref:
+    deleted: 已刪除
+    hidden: 已隱藏
+    renamed: 已重命名
+    restored: 已復原
