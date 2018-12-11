@@ -1,30 +1,47 @@
 # https://github.com/ReFlar/twofactor/blob/master/resources/locale/en.yml
-# Sat, 08 Dec 2018 16:54:32 +0800
+# Tue, 11 Dec 2018 14:25:06 +0800
 
 reflar-twofactor:
   forum:
-    text: "Your {forum} verification code is: {code}"
+    text: "{forum} 認證碼是： {code}"
+    onetouch:  "請求登入 {forum}"
     accountlabel: 雙因素認證
     incorrect_2fa: 無效的認證碼
     2fa_disabled: 雙因素認證已停用
     2fa_enabled: 雙因素認證已啟用
+    email:
+      body: 這是一個友好的提醒，你的帳戶已啟用雙因素認證。這意味著在登入時，你需要輸入由 TOTP 應用程式、Authy 或手機上的簡訊生成的認證碼，並輸入你的帳戶名和密碼。請務必將恢復代碼保存在安全的地方。如果你無法訪問行動設備，則需要其中一個登入你的帳戶。
+      subject: 你的帳戶已啟用雙因素認證
     modal:
+      useACode: 使用認證碼
       twofactor_title: 雙因素認證設定
+      oneTouchTitle: 需要 Authy 授權
+      oneTouchHeader: 等待 OneTouch 授權
+      oneTouchCodeHeader: 輸入來自 Authy 應用程式的認證碼
+      oneTouchHeaderVerified: 已授權！
       heading: 雙因素認證設定
       switch: 雙因素認證
-      2fa_heading: 雙因素認證編碼
+      2fa_heading: 雙因素認證碼
+      authy_heading: Authy 設定
+      phone_heading: 簡訊認證
       helpQR: 掃描 QR 圖碼，或者手動新增編碼至 Google Authenticator 或其他 TOTP 應用程式。
       helpPhone: '選擇你的運營商，填入電話號碼並點擊「儲存電話號碼」'
+      helpPhone2: '你現在應該收到帶有認證碼的簡訊，在下面輸入並點擊「提交」'
+      helpAuthy: '選擇國家，輸入你的電話號碼並點擊「設定」'
+      helpAuthy2: '你現在應該收到包含 Authy 設定的說明的文字，或者來自 Authy 應用程式的通知。設定完成後，在下面輸入認證碼並點擊「提交」'
       submitPhone: 儲存電話號碼
-      placeholder: 動態密碼
-      button: 送出
-      2fa_help: 輸入來自短信或 TOTP 應用程式的動態密碼
-      close: 我已儲存我的條碼
-      recov: 恢復條碼
+      otSetup: 設定
+      placeholder: 一次性密碼
+      button: 提交
+      2fa_help: 輸入來自簡訊或 TOTP 應用程式的動態密碼
+      close: 我已儲存好恢復代碼
+      recov: 恢復代碼
       login_title: 雙因素認證
-      recov_help1: 請儲存這些編碼，它們將不會再顯示！
+      recov_header: 恢復代碼
+      recov_help1: 請儲存這些代碼，它們將不會再顯示！
       recov_help2: 這是在沒有 TOTP 應用程式存取權限時存取帳戶的唯一方式。
       stPhone: 切換至電話設定
+      stAuthy: 切換至 Authy 設定
       stTOTP: 切換至 TOTP 設定
       back: 返回
   admin:
@@ -32,6 +49,9 @@ reflar-twofactor:
         title: 雙因素認證
         help: 從 twilio.com/console 取得你的帳戶 SID 和 Auth Token，或者從 twilio.com/console/phone-numbers/incoming 取得你的電話號碼 
         enable: 啟用 Twillio
+        authyHelp: '在此處獲取你的 API 密鑰並自定義論壇在 Authy 應用中的外觀：<a> https://www.twilio.com/console/authy </a>'
+        enableAuthy: 啟用 Authy OneTouchauthyApi
+        authyApi: Authy API 密鑰
         sid: Twillio 帳戶 SID
         token: Twillio Auth Token
         number: Twillio 電話號碼
