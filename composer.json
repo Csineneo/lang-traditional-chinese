@@ -1,7 +1,7 @@
 {
     "name": "csineneo/lang-traditional-chinese",
     "type": "flarum-extension",
-    "description": "Traditional Chinese language pack for Flarum",
+    "description": "適用於 Flarum v0.1.0-beta.8 及更新版本的正體中文語言包",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
