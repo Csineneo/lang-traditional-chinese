@@ -1,0 +1,9 @@
+# https://github.com/FriendsOfFlarum/transliterator/blob/master/locale/en.yml
+# Tue, 18 Dec 2018 15:53:24 +0800
+
+fof-transliterator:
+  admin:
+    settings:
+      title: FoF URL 轉譯設定
+      parse_button: 處理已有貼文
+      result: 已處理 {count} 個貼文

@@ -7,7 +7,7 @@ antoinefr-money:
       title: 設定
       moneyforpost: 每條回覆可獲取
       moneyfordiscussion: 每篇貼文可獲取
-      moneyname: 貨幣名稱
+      moneyname: 貨幣名稱（例如： [money] 元）
       postminimumlength: 可獲取獎勵的最小貼文長度（0 表示不限制）
     permissions:
       edit_money_label: 修改資產
