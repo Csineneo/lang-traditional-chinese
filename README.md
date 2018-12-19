@@ -78,3 +78,4 @@ https://vivaldi.club
   - reflar-reactions
   - reflar-twofactor
   - reflar-webhooks
+  - wuethrich44-sso
