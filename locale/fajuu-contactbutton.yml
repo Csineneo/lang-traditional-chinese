@@ -1,0 +1,11 @@
+# https://github.com/fajuu/ContactButton/blob/master/locale/en.yml
+# Sat, 29 Dec 2018 16:10:47 +0800
+
+fajuu-contactbutton:
+  admin:
+    settings:
+      title: 聯絡按鈕
+      buttoname: 按鈕名稱
+      adress: 郵箱地址或網站連結
+      icon: 按鈕圖示
+      newtab: 在新分頁開啟連結
