@@ -12,41 +12,41 @@ fof-pages:
 
     # These strings are used in the Edit Page modal dialog.
     edit_page:
-      content_label: => sijad-pages.ref.content
-      content_placeholder: => sijad-pages.ref.content
+      content_label: => fof-pages.ref.content
+      content_placeholder: => fof-pages.ref.content
       delete_page_button: Delete Page
       delete_page_confirmation: "你確定要刪除此頁面？"
       hidden_label: 儲存為草稿
       html_label: 啟用 HTML
       set_as_home_page_confirmation: "你確定要將此頁面設為首頁嗎？"
-      slug_label: => sijad-pages.ref.slug
-      slug_placeholder: => sijad-pages.ref.slug
+      slug_label: => fof-pages.ref.slug
+      slug_placeholder: => fof-pages.ref.slug
       submit_button: => core.ref.save_changes
-      title: => sijad-pages.ref.create_page
-      title_label: => sijad-pages.ref.title
-      title_placeholder: => sijad-pages.ref.title
-      url_label: => sijad-pages.ref.url
-      url_placeholder: => sijad-pages.ref.url
+      title: => fof-pages.ref.create_page
+      title_label: => fof-pages.ref.title
+      title_placeholder: => fof-pages.ref.title
+      url_label: => fof-pages.ref.url
+      url_placeholder: => fof-pages.ref.url
 
     # These strings are used in the pages page.
     nav:
-      pages_button: => sijad-pages.ref.pages
+      pages_button: => fof-pages.ref.pages
       pages_text: 新增自定義靜態頁面
 
     # Strings in this namespace are referenced by two or more unique keys.
     pages:
       about_text: 新增及管理靜態頁面
-      create_button: => sijad-pages.ref.create_page
+      create_button: => fof-pages.ref.create_page
 
     # These strings are used in the pages list.
     pages_list:
       empty_text: 看起來這裡一片空白。
-      title: => sijad-pages.ref.title
+      title: => fof-pages.ref.title
 
   # These strings are used in the navigation bar.
   ref:
     content: 內容
-    create_page: 創建頁面
+    create_page: 新增頁面
     pages: 頁面
     slug: Slug
     title: 標題
