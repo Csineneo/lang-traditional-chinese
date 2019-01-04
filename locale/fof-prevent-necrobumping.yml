@@ -1,0 +1,21 @@
+# https://github.com/FriendsOfFlarum/prevent-necrobumping/blob/master/resources/locale/en.yml
+# Fri, 04 Jan 2019 10:19:43 +0800
+
+fof-prevent-necrobumping:
+  forum:
+    composer:
+      warning:
+        title: 這個討論已經超過 <b>{time}</b>沒有討論。
+        description: 它可能不需要更多的討論，因此回覆它沒有任何意義。
+        checkbox_label: 我知道這個討論已經相當陳舊但依舊想要回覆。
+        error: 這個討論太舊了，禁止回覆。
+
+  admin:
+    settings:
+      days_label: 天
+      days_help: 如果貼文最後一次回覆時間距今已經超過限定天數，則這個貼文將被標記為舊貼。
+
+      message_title_label: 自定義訊息標題
+      message_title_help: '使用 <code>[time]</code> 來代替時間，例如「14 天」。'
+      message_description_label: 自定義訊息說明
+      message_agreement_label: 自定義訊息協定（復選框）
