@@ -32,6 +32,7 @@ composer remove csineneo/lang-simplified-chinese
 - ### 支援的延伸套件 / Supported Extensions
   - antoinefr-money
   - cookie-consent
+  - backtowebsite
   - fajuu-contactbutton
   - flagrow-ads
   - flagrow-bazaar
