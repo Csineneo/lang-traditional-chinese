@@ -74,6 +74,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-userbio
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
+  - mybbtoflarum
   - reflar-doorman
   - reflar-gamification
   - reflar-koseki

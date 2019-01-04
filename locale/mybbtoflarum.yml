@@ -1,0 +1,32 @@
+# https://github.com/MichaelBelgium/mybb_to_flarum/blob/master/locale/en.yml
+# Fri, 04 Jan 2019 10:19:43 +0800
+
+mybbtoflarum:
+  admin:
+    nav:
+      title: MyBB to Flarum
+      description: 將 MyBB 論壇轉換至 Flarum
+    page:
+      text: 將 MyBB 輪轉換至 Flarum，填入以下資料後點擊「遷移」。
+      btnConvert: 遷移
+      form:
+        general:
+          title: 一般設定
+          migrateAvatars: 遷移頭像
+          migrateSoftThreads: 遷移軟刪除貼文
+          migrateSoftPosts: 遷移軟刪除回覆
+        mybb:
+          title: MyBB 設定
+          host: 資料庫主機
+          user: 資料庫用戶名
+          password: 資料庫密碼
+          db: 資料庫名稱
+          prefix: 表前綴
+          mybbPath: MyBB 絕對路徑
+        options:
+          title: 一般遷移選項
+          migrateUsers: 遷移用戶
+          migrateThreadsPosts: 遷移貼文及回覆
+          migrateUserGroups: 遷移用戶群組
+          migrateCategories: 遷移分類
+
