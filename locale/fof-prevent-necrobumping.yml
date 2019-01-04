@@ -12,7 +12,7 @@ fof-prevent-necrobumping:
 
   admin:
     settings:
-      days_label: 天
+      days_label: 天数
       days_help: 如果貼文最後一次回覆時間距今已經超過限定天數，則這個貼文將被標記為舊貼。
 
       message_title_label: 自定義訊息標題
