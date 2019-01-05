@@ -68,12 +68,6 @@ core:
       submit_button: => core.ref.save_changes
       title: => core.ref.custom_footer_title
 
-    # These translations are used in the Edit Custom Footer modal dialog.
-    edit_footer:
-      customize_text: => core.ref.custom_footer_text
-      submit_button: => core.ref.save_changes
-      title: => core.ref.custom_footer_title
-
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
