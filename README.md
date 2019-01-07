@@ -67,6 +67,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-custom-footer
   - fof-default-group
   - fof-formatting
+  - fof-links
   - fof-pages
   - fof-prevent-necrobumping
   - fof-secure-https
