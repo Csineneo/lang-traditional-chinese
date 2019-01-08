@@ -83,6 +83,7 @@ composer remove csineneo/lang-simplified-chinese
   - reflar-level-ranks
   - reflar-nightmode
   - reflar-polls
+  - reflar-pwned-passwords
   - reflar-reactions
   - reflar-twofactor
   - reflar-webhooks
