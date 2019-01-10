@@ -14,7 +14,7 @@
 	composer remove csineneo/lang-simplified-chinese
 	```
 ### 在地化 / Localization
-  - 跳轉時間格式
+  - 調整時間格式
   - 改進正體中文字型顯示
 
 ### 支援的延伸套件 / Supported Extensions
