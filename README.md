@@ -5,14 +5,14 @@
 
 ### 安裝 / Installation
 ```
-	composer require csineneo/lang-traditional-chinese
-	composer require csineneo/lang-simplified-chinese
+composer require csineneo/lang-traditional-chinese
+composer require csineneo/lang-simplified-chinese
 ```
 
 ### 移除 / Remove
 ```
-	composer remove csineneo/lang-traditional-chinese
-	composer remove csineneo/lang-simplified-chinese
+composer remove csineneo/lang-traditional-chinese
+composer remove csineneo/lang-simplified-chinese
 ```
 
 ### 在地化 / Localization
