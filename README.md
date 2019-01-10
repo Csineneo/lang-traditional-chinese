@@ -4,15 +4,17 @@
   - Flarum v0.1.0-beta.8 and newer
 
 ### 安裝 / Installation
-	```
+```
 	composer require csineneo/lang-traditional-chinese
 	composer require csineneo/lang-simplified-chinese
-	```
+```
+
 ### 移除 / Remove
-	```
+```
 	composer remove csineneo/lang-traditional-chinese
 	composer remove csineneo/lang-simplified-chinese
-	```
+```
+
 ### 在地化 / Localization
   - 調整時間格式
   - 改進正體中文字型顯示
