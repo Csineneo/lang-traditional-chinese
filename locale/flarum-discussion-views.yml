@@ -4,8 +4,8 @@
 core:
   forum:
     index_sort:
-      popular_button: 熱門
-      unpopular_button: 非熱門
+      popular_button: 最多瀏覽
+      unpopular_button: 最少瀏覽
 
 flarum_discussion_views:
   forum:
