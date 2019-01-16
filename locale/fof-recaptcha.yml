@@ -8,7 +8,7 @@ fof-recaptcha:
 
       type_label: reCAPTCHA 類型
 
-      site_key_label: 站點 Key
+      site_key_label: Site Key
       secret_key_label: Secret Key
 
 validation:
