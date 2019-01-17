@@ -20,7 +20,7 @@ flagrow-analytics:
         piwikPrependDomain: 追蹤時將網站域名放置到網頁標題開頭
         piwikHideAliasUrl: 在「離開連結」報表中隱藏已知的網站別名網頁點擊
         piwikAliasUrl: 別名連結
-        piwikTrackAccounts: 追蹤訪客帳戶Track individual user accounts
+        piwikTrackAccounts: 追蹤訪客帳戶
         piwikAuthToken: 驗證 Token
 
       placeholder:
