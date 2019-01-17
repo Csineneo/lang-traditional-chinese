@@ -1,0 +1,38 @@
+# https://github.com/flagrow/analytics/blob/master/resources/locale/en.yml
+# Thu, 17 Jan 2019 10:59:41 +0800
+
+flagrow-analytics:
+  admin:
+    popup:
+      title: 分析設定
+
+      section:
+        googleAnalytics: Google 分析
+        piwik: Piwik
+
+      field:
+        statusGoogle: 啟用 Google 分析
+        googleTrackingCode: Tracking Code ID
+        statusPiwik: 啟用 Piwik
+        piwikUrl: Piwik 主機或連結
+        piwikSiteId: Site ID
+        piwikTrackSubdomain: 追蹤所有 Flarum 子域的訪客
+        piwikPrependDomain: 追蹤時將網站域名放置到網頁標題開頭
+        piwikHideAliasUrl: 在「離開連結」報表中隱藏已知的網站別名網頁點擊
+        piwikAliasUrl: 別名連結
+        piwikTrackAccounts: 追蹤訪客帳戶Track individual user accounts
+        piwikAuthToken: 驗證 Token
+
+      placeholder:
+        piwikAuthToken: |
+          填入 token 以啟用 Piwik 統計管理面板。
+          你可以在設定→個人→API 驗證 Token 中找到。
+      trackAccounts:
+        none: 不要追蹤
+        username: 依照用戶名追蹤
+        email: 依照郵箱追蹤
+
+    page:
+      nav:
+        title: 分析
+        description: 查閱統計資訊
