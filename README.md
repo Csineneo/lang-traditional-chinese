@@ -67,6 +67,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-spamblock
   - fof-transliterator
   - fof-userbio
+  - imgur-upload
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
   - mybbtoflarum
