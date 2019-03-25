@@ -20,6 +20,7 @@ composer remove csineneo/lang-simplified-chinese
   - 改進正體中文字型顯示
 
 ### 支援的延伸套件 / Supported Extensions
+  - amaurycarrade-syndication
   - antoinefr-money
   - cookie-consent
   - backtowebsite

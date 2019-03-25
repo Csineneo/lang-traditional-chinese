@@ -1,0 +1,23 @@
+# https://github.com/AmauryCarrade/flarum-ext-syndication/blob/master/resources/locale/en.yml
+# Mon, 25 Mar 2019 11:23:39 +0800
+
+amaurycarrade-syndication:
+  forum:
+    autodiscovery:
+      forum_activity: "論壇活動"
+      forum_new_discussions: "論壇新貼文"
+      tag_activity: "{tag} 節點活動"
+      tag_new_discussions: "{tag} 節點新貼文"
+      discussion_last_posts: "此貼文"
+    feeds:
+      titles:
+        main_title: "{forum_name}"
+        main_subtitle: "論壇最新回覆"
+        main_d_title: "{forum_name} 的最新貼文"
+        main_d_subtitle: "論壇最新貼文"
+        tag_title: "{tag} 節點活動"
+        tag_subtitle: "{tag} 節點最新回覆"
+        tag_d_title: "{tag} 節點最新貼文"
+        tag_d_subtitle: "{tag} 節點最新貼文"
+        discussion_title: "{discussion_name}"
+        discussion_subtitle: "此貼文的最新回覆"
