@@ -24,6 +24,7 @@ composer remove csineneo/lang-simplified-chinese
   - antoinefr-money
   - cookie-consent
   - backtowebsite
+  - datitisev-dashboard
   - fajuu-contactbutton
   - flagrow-ads
   - flagrow-analytics
