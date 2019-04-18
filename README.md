@@ -34,6 +34,7 @@ composer remove csineneo/lang-simplified-chinese
   - flagrow-html-errors
   - flagrow-impersonate
   - flagrow-linguist
+  - flagrow-mason
   - flagrow-passport
   - flagrow-split
   - flagrow-terms

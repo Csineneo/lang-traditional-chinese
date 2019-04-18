@@ -1,0 +1,100 @@
+# https://github.com/flagrow/mason/blob/master/resources/locale/en.yml
+# Thu, 18 Apr 2019 13:49:01 +0800
+
+flagrow-mason:
+    forum:
+        discussion-controls:
+            edit-answers: 編輯欄位
+        answers-modal:
+            edit-title: 編輯 {title} 的欄位
+            save: 儲存欄位
+        post-answers:
+            no-answer: 無答案
+        answers:
+            choose-option: 選擇一個選項
+            no-option-selected: 未選擇
+        tags:
+            inadequate-settings: >
+                節點設定未正確配置。最多允許一個主節點和次節點，或者停用此特性。
+            tags-label: 節點
+    admin:
+        buttons:
+            new-field: 新增欄位
+            add-field: 新增欄位
+            save-field: 儲存欄位
+            delete-field: 刪除欄位
+            edit-field: 點擊編輯欄位
+            add-answer: 新增答案
+            save-answer: 儲存答案
+            delete-answer: 刪除答案
+            show-user-answers: 顯示 ({count}) 條不建議的答案
+        menu:
+            description: >
+                配置自定義帖文欄位
+        fields:
+            add: 新增欄位 {field}
+            edit: 編輯欄位 {field}
+            required: 必填項
+            name: 欄位名稱
+            name-help: >
+                公開可見且不可翻譯的欄位標籤
+            description: 欄位說明
+            description-help: >
+                可選說明以解釋這個欄位的用途
+            min_answers_count: 最小答案數
+            max_answers_count: 最大答案數
+            show_when_empty: 顯示空欄位
+            show_when_empty-help:
+                不論欄位是否為空均在帖文中顯示
+            validation: 校驗用戶輸入
+            user_values_allowed: 允許用戶輸入的內容
+            user_values_allowed-help: >
+                如果啟用，用戶可以添加自己的值而不是管理員定義的值。
+                這些值將根據「校驗」設置進行檢查。
+                如果禁用，他們只能使用「建議」的答案。
+            validation-help: >
+                查看支援的 <a>Laravel validation rules</a>，例如:
+                "string|min:5" 或 "url".
+            enable-user-values-for-validation: 啟用「用戶輸入」來配置校驗規則
+            icon: 小圖示
+            icon-help: >
+                在這個欄位前顯示小圖示。可用的小圖示請查看 <a>FontAwesome 網站</a>，請使用完整圖示類名，包括前綴，例如：「fas fa-bolt」。
+            icon-preview: 預覽： {preview}
+            save-field-for-answers: 儲存此欄位以新增答案
+            is_suggested: 向使用者展示建議
+            new-answer-placeholder: 一些文字
+        messages:
+            delete-answer-confirmation: >
+                你確定要刪除答案「{content}」？
+                這將從所有使用它的帖文中移除，如果你想要保留現有答案請停用答案建議。
+                刪除答案？
+            delete-field-confirmation: >
+                你確定要刪除欄位「{name}」？
+                這將從所有使用它的帖文中移除
+                刪除欄位？
+        settings:
+            fields-section-title: 自定義欄位標題
+            fields-section-title-placeholder: 預設不顯示標題
+            fields-section-title-help: >
+                使用者將在欄位上看到這個文本
+            column-count: 顯示欄位數目
+            n-columns: "{count} 個直欄"
+            labels-as-placeholders: 在表單中顯示標籤作為佔位
+            labels-as-placeholders-help: >
+                欄位將使用較少的縱向空間，小圖示將不再顯示。請注意，這可能會影響可用性，尤其是在編輯現有欄位時。
+            fields-in-hero: 欄位作為帖文橫幅展示，而不是首帖
+            hide-empty-fields-section: 當所有欄位都為空且不可見時，隱藏標題及控制項
+            hide-empty-fields-section-help: >
+                預設為始終顯示，啟用此選項後，當所有欄位都為空時，「編輯欄位」按鈕僅在「回覆」下拉選單中可用
+            tags-as-field: 將節點選擇作為一個欄位顯示
+            tags-as-field-help: >
+                這將隱藏預設節點選擇并以自定義下拉選單代替。這僅適用於最多一個主節點和一個次節點！
+            tags-field-name: 節點欄位標籤
+            tags-field-name-placeholder: => flagrow-mason.forum.tags.tags-label
+        titles:
+            settings: 設定
+            fields: 欄位
+        permissions:
+            update-own-fields: 更新自己帖文的 Mason 欄位
+            update-other-fields: 更新任意帖文的 Mason 欄位
+            skip-required-fields: 跳過必填的 Mason 欄位
