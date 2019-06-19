@@ -21,4 +21,4 @@ saleksin-auth-google:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_google_button: 透過 Google 身分登入
+      with_google_button: 透過 Google 帳號登入
