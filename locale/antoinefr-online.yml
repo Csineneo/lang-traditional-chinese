@@ -1,0 +1,12 @@
+# https://github.com/AntoineFr/flarum-ext-online/blob/master/locale/en.yml
+# Mon, 15 Jul 2019 10:36:36 +0800
+
+antoinefr-online:
+  forum:
+    title: 線上會員
+    andmore: "還有 {more} 人 ..."
+  admin:
+    settings:
+      title: 設定
+      displaymax: 顯示數量
+      titleoflist: 列表標題
