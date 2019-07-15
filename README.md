@@ -68,6 +68,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-follow-tags
   - fof-formatting
   - fof-frontpage
+  - fof-ignore-users
   - fof-links
   - fof-merge-discussions
   - fof-pages
