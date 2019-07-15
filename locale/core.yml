@@ -112,7 +112,6 @@ core:
       smtp_heading: SMTP 設定
       submit_button: => core.ref.save_changes
       text: 配置用於發信的驅動、設置及地址。
-      username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
