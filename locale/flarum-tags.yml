@@ -16,6 +16,8 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       delete_tag_button: 刪除節點
       delete_tag_confirmation: "確定要刪除此幾點？此節點下的貼文將不會被刪除。"
       description_label: 說明

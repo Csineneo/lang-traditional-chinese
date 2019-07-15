@@ -73,8 +73,8 @@ core:
       color_label: => core.ref.color
       delete_button: 刪除群組
       delete_confirmation: "確定是否刪除此群組？群組成員不會被刪除。"
-      icon_label: 圖示
-      icon_text: "鍵入任意 <a>FontAwesome</a> 圖示名稱，<em>需要</em>鍵入前綴 <code>fas fa-</code>"
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: 名稱
       plural_placeholder: 群組（例如：管理組）
       singular_placeholder: 群組成員（例如：管理員）
@@ -89,18 +89,29 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP 帳號
       addresses_heading: 地址
+      driver_heading: 選取驅動
       driver_label: 驅動
       encryption_label: 加密
       from_label: 發信人
       heading: => core.ref.email
-      host_label: 主機
-      password_label: => core.ref.password
-      port_label: 連接埠
-      server_heading: SMTP 伺服器
+      mail_encryption_label: 加密
+      mail_host_label: 主機
+      mail_mailgun_domain_label: 域名
+      mail_mailgun_secret_label: Secret key
+      mail_mandrill_secret_label: Secret key
+      mail_password_label: => core.ref.password
+      mail_port_label: 連接埠
+      mail_ses_key_label: Key
+      mail_ses_region_label: 地區
+      mail_ses_secret_label: Secret
+      mail_username_label: => core.ref.username
+      mailgun_heading: Mailgun 設定
+      mandrill_heading: Mandrill 設定
+      ses_heading: SES 設定
+      smtp_heading: SMTP 設定
       submit_button: => core.ref.save_changes
-      text: 配置 SMTP 設定及論壇發信地址
+      text: 配置用於發信的驅動、設置及地址。
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
@@ -455,6 +466,8 @@ core:
       403_message: 你沒有權限訪問此頁面
       404_message: 你訪問的頁面不存在
       404_return_link: "返回 {forum}"
+      419_message: 你已經很長時間沒有動作。
+      419_return_link: 返回再試一次。
       500_message: 加載頁面時出錯。
       503_message: "{forum} 正在維護中，請稍後再訪問。"
 
@@ -544,6 +557,8 @@ core:
     discussions: 貼文
     edit: 編輯
     email: 郵箱
+    icon_label: 圖示
+    icon_text: "鍵入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>"
     load_more: 載入更多
     log_in: 登入
     log_out: 登出
