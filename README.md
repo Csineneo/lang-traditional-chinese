@@ -37,7 +37,6 @@ composer remove csineneo/lang-simplified-chinese
   - flagrow-passport
   - flagrow-terms
   - flagrow-upload
-  - flagrow-user-directory
   - flarum-akismet
   - flarum-approval
   - flarum-auth-facebook
@@ -79,6 +78,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-split
   - fof-spamblock
   - fof-transliterator
+  - fof-user-directory
   - fof-userbio
   - imgur-upload
   - kvothe-sub
