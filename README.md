@@ -88,7 +88,6 @@ composer remove csineneo/lang-simplified-chinese
   - mybbtoflarum
   - reflar-cookie-consent
   - reflar-doorman
-  - reflar-koseki
   - reflar-level-ranks
   - reflar-nightmode
   - reflar-polls
