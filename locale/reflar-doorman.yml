@@ -1,5 +1,5 @@
 # https://github.com/ReFlar/doorman/blob/master/resources/locale/en.yml
-# Sat, 08 Dec 2018 16:54:32 +0800
+# Tue, 16 Jul 2019 10:18:36 +0800
 
 reflar-doorman:
   forum:
@@ -7,13 +7,17 @@ reflar-doorman:
       invalid_doorkey: 你輸入的邀請碼無效
       doorkey_required: 請輸入邀請碼
       doorman_placeholder: 邀請碼
+      doorman_placeholder_optional: 邀請碼（可選）
 
   admin:
     invalid_doorkey: 你提供的邀請碼無效
     doorkey_required: 你必須提供邀請碼
+    nav:
+      desc: 創建邀請碼用於用戶註冊並分配用戶組
     page:
       title: 看門人
       doorkey:
+        used_times: "剩餘 1 次邀請|剩餘 {remaining} 次邀請"
         title: 邀請碼
         help:
           key: "密鑰：用戶在註冊時輸入的邀請碼"
@@ -28,3 +32,7 @@ reflar-doorman:
           group: 群組
           activate: 激活用戶
           max_uses: 最大使用次數
+        allow-public:
+          title: 允許開放註冊
+          switch-label: 註冊時邀請碼為可選項
+
