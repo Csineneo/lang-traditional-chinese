@@ -1,7 +1,7 @@
-# https://github.com/flagrow/byobu/blob/master/resources/locale/en.yml
-# Sat, 08 Dec 2018 16:54:32 +0800
+# https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
+# Tue, 16 Jul 2019 10:18:36 +0800
 
-flagrow-byobu:
+fof-byobu:
   forum:
     badges:
       is_private:
@@ -30,9 +30,17 @@ flagrow-byobu:
         added_and_removed: "{username} 新增「{added}」並移除「{removed}」"
         added: "{username} 新增「{added}」"
         removed: "{username} 移除「{removed}」"
+    user:
+      settings:
+        block_pd: 阻止私密貼文
+      byobu_link: 私密貼文
   admin:
     permission:
-      create_private_discussions_with_users: 創建私密貼文並可添加參與者
-      create_private_discussions_with_groups: 創建私密貼文並可添加群組
+      create_private_discussions_with_users: 創建私密貼文並可新增參與者
+      create_private_discussions_with_groups: 創建私密貼文並可新增群組
+      create_private_discussions_with_blocking_users: 允許新增已阻止私密貼文的會員
       edit_user_recipients: 編輯參與私密討論的參與者
       edit_group_recipients: 編輯參與私密討論的群組
+
+    settings:
+      byobu_users_page_label: 新增私密貼文至使用者頁面

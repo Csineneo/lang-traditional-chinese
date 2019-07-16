@@ -29,7 +29,6 @@ composer remove csineneo/lang-simplified-chinese
   - fajuu-contactbutton
   - flagrow-ads
   - flagrow-analytics
-  - flagrow-byobu
   - flagrow-fonts
   - flagrow-html-errors
   - flagrow-impersonate
@@ -61,6 +60,7 @@ composer remove csineneo/lang-simplified-chinese
   - flarum-suspend
   - flarum-tags
   - fof-auth-gitlab
+  - fof-byobu
   - fof-custom-footer
   - fof-default-group
   - fof-follow-tags
