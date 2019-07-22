@@ -1,0 +1,57 @@
+# https://github.com/NikoVonLas/flarum-ext-web-push/blob/master/locale/en.yml
+# Mon, 22 Jul 2019 10:52:32 +0800
+
+nikovonlas-webpush:
+  forum:
+    subscribe: 訂閱推送消息
+  admin:
+    settings:
+      title: 網頁推送設定
+      type:
+        description: Onesignal 連結類型
+        standart: 標準
+        custom: 自定義
+      app_id: Onesignal app id
+      api_key: Onesignal api key
+      user_key: Onesignal user key
+      subdomain: Onesignal subdomain
+      excerpt: 消息摘要長度
+      autoprompt: 立即顯示權限申請以授權使用者
+  notify:
+    like:
+      title: 貼文被讚
+      message: '{from} 讚了你的貼文「{post}」'
+    mention-post:
+      title: '貼文「{title}」有新回覆'
+      message: '{from} 回覆了你的貼文「{post}」'
+    mention:
+      title: '貼文「{title}」提及了你'
+      message: '{from} 在貼文「{post}」提及了你'
+    post:
+      title: '訂閱的貼文「{title}」有新回覆'
+      message: '{from} 回覆了貼文「{post}」'
+    tag:
+      discussion:
+        title: 訂閱的節點有新貼文發佈
+        message: '{from} 發佈了新貼文「{title}」'
+      post:
+        title: '貼文「{title}」有新回覆'
+        message: '{from} 回覆了貼文「{post}」'
+    rename:
+      title: 貼文被重命名
+      message: '{from} 重命名你的貼文为「{title}」'
+    lock:
+      title: 貼文被鎖定
+      message: '{from} 鎖定了你的貼文「{title}」'
+    delete:
+      title: 貼文被删除
+      message: '{from} 刪除了你的貼文「{title}」'
+    suspend:
+      title: 账号被停用
+      message: '{from} 停用了你的账号'
+    unsuspend:
+      title: 账号已啟用
+      message: '{from} 重新啟用了你的账号'
+    flag:
+      title: 有貼文被標記
+      message: '{from} 標記了你的貼文「{post}」'

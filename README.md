@@ -87,6 +87,7 @@ composer remove csineneo/lang-simplified-chinese
   - michaelBelgium-profile-views
   - migratetoflarum-vbulletin-redirects
   - mybbtoflarum
+  - nikovonlas-webpush
   - reflar-cookie-consent
   - reflar-doorman
   - reflar-level-ranks
