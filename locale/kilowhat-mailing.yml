@@ -1,0 +1,27 @@
+# https://github.com/kilowhat/flarum-ext-mailing/blob/master/resources/locale/en.yml
+# Sun, 28 Jul 2019 11:17:57 +0800
+
+kilowhat-mailing:
+    admin:
+        permissions:
+            mail_individual: 向單獨會員傳送郵件
+            mail_all: 向全部會員傳送郵件
+
+    forum:
+        links:
+            mail_individual: 向這個會員傳送郵件
+            mail_all: 向全部會員傳送郵件
+        modal_mail:
+            title_text: 傳送給
+            title_all_text: 全體會員
+            email_label: 收信人
+            subject_label: 標題
+            default_subject: => kilowhat-mailing.ref.default_subject
+            message_label: 正文
+            submit_button: 傳送
+
+    email:
+        default_subject: => kilowhat-mailing.ref.default_subject
+
+    ref:
+        default_subject: 來自論壇管理員的郵件
