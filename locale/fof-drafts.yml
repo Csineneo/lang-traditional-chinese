@@ -1,0 +1,16 @@
+# https://github.com/FriendsOfFlarum/drafts/blob/master/resources/locale/en.yml
+# Tue, 06 Aug 2019 10:56:57 +0800
+
+fof-drafts:
+  admin:
+    permissions:
+      start: 新增貼文草稿
+  forum:
+    composer:
+      title: 儲存草稿
+      alert: 草稿已儲存
+    dropdown:
+      title: 草稿
+      button: 刪除草稿
+      tooltip: => fof-drafts.forum.dropdown.title
+      alert: 你確定要刪除草稿嗎？
