@@ -1,0 +1,20 @@
+# https://github.com/shriker/flarum-pronouns/blob/master/resources/locale/en.yml
+# Mon, 02 Sep 2019 10:52:21 +0800
+
+shriker-pronouns:
+
+  admin:
+    settings:
+      title: 人稱代名詞設定
+      prefix_label: 代名詞前綴
+      prefix_help_text: 這個前綴將會顯示於用戶代名詞之前。
+
+  forum:
+    change_pronouns_title: 更改代名詞
+    change_pronouns_button: 更改代名詞
+    my_pronouns_are_label: 我的代名詞是
+    my_pronouns_are_placeholder: "例如： 他、她、他們"
+    my_pronouns_are_help_text: 您的代名詞將會顯示於基本資料及用戶卡片中。<a>什麼是人稱代名詞以及為什麼需要它們？</a>
+    submit_button: 儲存更改
+    submit_success_text: 您的代名詞已儲存。
+    dismiss_button: 撤銷
