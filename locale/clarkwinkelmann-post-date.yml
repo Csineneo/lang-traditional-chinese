@@ -1,0 +1,15 @@
+# https://github.com/clarkwinkelmann/flarum-ext-post-date/blob/master/resources/locale/en.yml
+# Fri, 06 Sep 2019 15:49:51 +0800
+
+clarkwinkelmann-post-date:
+    forum:
+        post_controls:
+            edit_button: 更改時間
+        modal:
+            title: 更改發佈時間
+            created_at: 發佈時間
+            edited_at: 更改時間
+            submit: 儲存
+    admin:
+        permissions:
+            edit-post-date: 更改發佈時間
