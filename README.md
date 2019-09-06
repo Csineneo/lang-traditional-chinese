@@ -26,6 +26,7 @@ composer remove csineneo/lang-simplified-chinese
   - backtowebsite
   - clarkwinkelmann-post-date
   - datitisev-dashboard
+  - dem13n
   - extiverse-bazaar
   - fajuu-contactbutton
   - flagrow-ads
