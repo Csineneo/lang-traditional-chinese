@@ -22,11 +22,11 @@ fajuu-icons:
       title: 圖示設定
       key_heading: 套件碼
       key_text: |
-        <a>在哪裏可以找到套件碼？</a>免費版本同樣需要註冊。您必須生成一個 set，在 set 碼中您會找到 10 位長度的 set 密鑰。如果您已有 set 密鑰，選取並複製它。
+        <a>在哪裏可以找到套件碼？</a>免費版本同樣需要註冊。您必須生成一個 set，在 set 碼中您會找到 10 位數字的 set 密鑰。如果您已有 set 密鑰，選取並複製它。
     # These translations are used in the Icon Import modal dialog.
     icon_import:
       title: 匯入圖示
-      about: 在此處輸入要匯入圖示的 JSON 檔案
+      about: 在此處輸入要匯入圖示的 JSON 字串
       not_json: 內容必須是有效的 JSON 字串。
       import_button: 匯入
       restore_button: 復原預設圖示
