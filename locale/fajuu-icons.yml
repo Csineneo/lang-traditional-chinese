@@ -1,0 +1,56 @@
+# https://github.com/Fajuu/flarum-icons/blob/master/resources/locale/en.yml
+# Fri, 20 Sep 2019 10:33:51 +0800
+
+fajuu-icons:
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Edit Icon component.
+    edit_icon:
+      elementPath: 元素路徑
+      originalIcon: 預設圖示
+      modifiedIcon: 更改後的圖示
+
+    # These translations are used in the navigation bar.
+    nav:
+      icons_button: => fajuu-icons.ref.icons
+      icons_text: 更改圖示及樣式
+
+    # These translations are used in the Icon Settings modal dialog.
+    icon_settings:
+      title: 圖示設定
+      key_heading: 套件碼
+      key_text: |
+        <a>在哪裏可以找到套件碼？</a>免費版本同樣需要註冊。您必須生成一個 set，在 set 碼中您會找到 10 位長度的 set 密鑰。如果您已有 set 密鑰，選取並複製它。
+    # These translations are used in the Icon Import modal dialog.
+    icon_import:
+      title: 匯入圖示
+      about: 在此處輸入要匯入圖示的 JSON 檔案
+      not_json: 內容必須是有效的 JSON 字串。
+      import_button: 匯入
+      restore_button: 復原預設圖示
+
+    # These translations are used in the Icon Export modal dialog.
+    icon_export:
+      title: 匯出圖示
+      close_button: 關閉
+      copy_button: 複製
+      copy_success: 內容已複製。
+      copy_error: 內容未複製。
+
+    # These translations are used in the Icons page.
+    icons:
+      about_icons_text: |
+        在這裏您可以將論壇圖示更改為任何您喜歡的圖示！
+        搜尋要更改的論壇圖示（預設圖示）輸入路徑並選取一個新的（更改後的圖示）。
+        全部圖示都來源於 <a>Font Awesome</a> 圖示。
+      settings_button: 設定
+      list_icons_button: 圖示列表
+      import_icons_button: 匯入圖示
+      export_icons_button: 匯出圖示
+      key_error: 套件碼未找到或者不正確，請檢查圖示設定！更改設定後請重新載入頁面。
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    icons: 圖示

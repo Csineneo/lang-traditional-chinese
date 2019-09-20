@@ -30,6 +30,7 @@ composer remove csineneo/lang-simplified-chinese
   - dem13n
   - extiverse-bazaar
   - fajuu-contactbutton
+  - fajuu-icons
   - flagrow-ads
   - flagrow-analytics
   - flagrow-fonts
@@ -87,7 +88,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-socialprofile
   - fof-split
   - fof-spamblock
-  - fof-stopforumspa
+  - fof-stopforumspam
   - fof-subscribed
   - fof-transliterator
   - fof-user-directory
