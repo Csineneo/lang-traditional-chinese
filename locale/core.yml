@@ -152,6 +152,7 @@ core:
       delete_posts_forever_label: 永久刪除回覆
       delete_posts_label: 刪除回覆
       edit_posts_label: 編輯回覆
+      edit_users_label: 編輯會員
       global_heading: 全局
       moderate_heading: 管理
       new_group_button: 新增群組
@@ -322,6 +323,7 @@ core:
       discussion_renamed_text: "{username} 更改了標題"
       empty_text: 暫無通知
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      mark_as_read_tooltip: 標記為已讀
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
@@ -407,7 +409,9 @@ core:
     user_controls:
       button: 操作 
       delete_button: => core.ref.delete
-      delete_confirmation: "確定要刪除此帳戶？此帳戶下的貼文均將被刪除。"
+      delete_confirmation: "確定要刪除此帳號？此帳戶下的貼文均將被刪除。"
+      delete_error_message: "刪除帳號 <i>{username} ({email})</i> 失敗"
+      delete_success_message: "帳號 <i>{username} ({email})</i> 已刪除"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -462,13 +466,14 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      403_message: 你沒有權限訪問此頁面
-      404_message: 你訪問的頁面不存在
-      404_return_link: "返回 {forum}"
-      419_message: 你已經很長時間沒有動作。
-      419_return_link: 返回再試一次。
-      500_message: 加載頁面時出錯。
-      503_message: "{forum} 正在維護中，請稍後再訪問。"
+      csrf_token_mismatch: 您已長時間沒有動作。
+      csrf_token_mismatch_return_link: 返回並再試一下
+      invalid_confirmation_token: 驗證連結已使用或無效。
+      not_authenticated: 您沒有權限訪問此頁面。請登入後再試。
+      not_found: 頁面未找到。
+      not_found_return_link: "返回 {forum}"
+      permission_denied: 您沒有權限訪問此頁面。
+      unknown: 載入頁面時出錯。
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
