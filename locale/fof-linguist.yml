@@ -24,3 +24,8 @@ flagrow-linguist:
             without-original-translations-in-locales: 不帶原文翻譯於
             for-extension: 適用於延伸套件
             results: 顯示 {shown} 條匹配翻譯，共 {total} 條 
+        clear-cache:
+            text: >
+                新增翻譯尚未部署。
+                Note: 清除快取會造成論壇一時緩慢。
+            button: 立刻清除快取

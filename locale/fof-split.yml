@@ -5,7 +5,6 @@ fof-split:
     admin:
       permissions:
         split_discussion_label: 拆分貼文
-
     forum:
         post:
             was_split_to: "{count} 個回覆被拆分至 {target}"

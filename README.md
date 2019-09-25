@@ -36,7 +36,6 @@ composer remove csineneo/lang-simplified-chinese
   - flagrow-fonts
   - flagrow-html-errors
   - flagrow-impersonate
-  - flagrow-linguist
   - flagrow-mason
   - flagrow-passport
   - flagrow-terms
@@ -75,6 +74,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-frontpage
   - fof-gamification
   - fof-ignore-users
+  - fof-linguist
   - fof-links
   - fof-merge-discussions
   - fof-pages
