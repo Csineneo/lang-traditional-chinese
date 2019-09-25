@@ -8,7 +8,8 @@ core:
       
 fof-gamification:
   forum:
-    vote_title: 顯示投票人
+    votes: 點讚
+    vote_title: 顯示點讚的人
     nav:
       name: 排名
     ranking:
@@ -16,7 +17,7 @@ fof-gamification:
       name: 用戶
       amount: 👍
     notification:
-      upvote: "{username} 頂了您的帖文"
+      upvote: "{username} 讚了您的帖文"
       downvote: "{username} 踩了您的帖文"
     user:
       points: "👍: {points}"
@@ -25,7 +26,7 @@ fof-gamification:
       title: 打分
       upvotes_label: 頂
       downvotes_label: 踩
-    mod_item: 查看投票人
+    mod_item: 查看點讚的人
   admin:
     permissions:
       vote_label: 頂/踩帖文
@@ -48,7 +49,9 @@ fof-gamification:
         points_title: 佔位符
         points_placeholder: "👍: "
         color_holder: '#ffffff'
-        auto_upvote: 當帖文發佈時自動頂帖
+        auto_upvote: 當帖文發佈時自動點讚
+        rate_limit: 點讚頻率限制（10 秒）
+        discussion_page: 在貼文列表中顯示點讚數
         title: 頂
         vote_color: 頂貼顏色
         icon_name: 頂/踩小圖示
