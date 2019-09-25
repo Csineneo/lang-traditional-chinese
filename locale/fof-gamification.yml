@@ -24,13 +24,13 @@ fof-gamification:
       rank: "{rank}"
     modal:
       title: 打分
-      upvotes_label: 頂
+      upvotes_label: 讚
       downvotes_label: 踩
     mod_item: 查看點讚的人
   admin:
     permissions:
-      vote_label: 頂/踩帖文
-      see_votes_label: 查看帖文頂/踩
+      vote_label: 讚/踩帖文
+      see_votes_label: 查看帖文讚/踩
       see_ranking_page: 查看等級頁面
     nav:
       desc: 增強 Flarum 論壇遊戲性
@@ -52,14 +52,14 @@ fof-gamification:
         auto_upvote: 當帖文發佈時自動點讚
         rate_limit: 點讚頻率限制（10 秒）
         discussion_page: 在貼文列表中顯示點讚數
-        title: 頂
-        vote_color: 頂貼顏色
-        icon_name: 頂/踩小圖示
+        title: 讚
+        vote_color: 點讚貼顏色
+        icon_name: 讚/踩小圖示
         icon_help: "輸入任何 Font-Awesome 圖標，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋"
       save_settings: 儲存設定
       convert:
-        button: 轉換「喜歡」為「頂」
-        help: 將 flarum-ext-like 產生的「喜歡」轉換成「頂」，並計算所有當前討論的熱度
+        button: 轉換「喜歡」為「讚」
+        help: 將 flarum-ext-like 產生的「喜歡」轉換成「讚」，並計算所有當前討論的熱度
         converting: 您的喜好正在被轉換，稍後幾分鐘刷新頁面查看轉換結果。（轉換可能需要一段時間，具體取決於您的論壇）
         converted: "成功轉換 {number} 個喜歡"
       ranks:
@@ -68,6 +68,6 @@ fof-gamification:
         number_title: 要顯示多少個徽章？
         help:
           color: '#ffffff'
-          help: "輸入所需數量的頂，級別名稱，以及等級顏色"
+          help: "輸入所需數量的點贊數，級別名稱，以及等級顏色"
           points: 👍
           name: 名稱
