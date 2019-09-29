@@ -73,6 +73,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-formatting
   - fof-frontpage
   - fof-gamification
+  - fof-geoip
   - fof-ignore-users
   - fof-linguist
   - fof-links
