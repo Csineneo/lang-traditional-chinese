@@ -78,6 +78,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-linguist
   - fof-links
   - fof-merge-discussions
+  - fof-nightmode
   - fof-pages
   - fof-polls
   - fof-pretty-mail
@@ -107,7 +108,6 @@ composer remove csineneo/lang-simplified-chinese
   - reflar-cookie-consent
   - reflar-doorman
   - reflar-level-ranks
-  - reflar-nightmode
   - reflar-pwned-passwords
   - reflar-twofactor
   - reflar-webhooks
