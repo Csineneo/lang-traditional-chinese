@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/username-request/blob/master/resources/locale/en.yml
-# Tue, 06 Aug 2019 10:56:57 +0800
+# Mon, 30 Sep 2019 22:17:29 +0800
 
 fof-username-request:
   admin:
@@ -12,7 +12,7 @@ fof-username-request:
       help_text: 確認用戶名遵循論壇規則
       decision_title: 決議
       approval_label: 同意
-      denial_label: 拒絕
+      rejected_label: 拒絕
       submit_button: 提交
       reason_title: 拒絕原因
       success: 決議已傳送
@@ -21,7 +21,7 @@ fof-username-request:
       title: 變更用戶名
       approved: '您的變更用戶名的申請已通過！'
       new_username: '您的用戶名已變更為「{username}」'
-      denied: 您的變更用戶名申請已遭拒。
+      rejected: 您的變更用戶名申請已遭拒。
       reason: '拒絕原因： <i>"{reason}"</i>'
       resubmit: 您可以重新提交一個新的用戶名。
     request:
