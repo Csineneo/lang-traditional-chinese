@@ -1,3 +1,6 @@
+# https://github.com/manelizzard/flarum-notify/blob/master/resources/locale/en.yml
+# Sat, 12 Oct 2019 10:16:52 +0800
+
 flarum-notify:
   admin:
     title: 通知
@@ -5,6 +8,7 @@ flarum-notify:
     services:
       title: 通知服務
       description: 請選取要啟用的服務
+      unavailable: 服務不可用。如果想繼續使用，請查閱<a>安裝說明</a>。
     events:
       title: 通知事件
       description: 選取觸發通知的事件。當以下事件發生時傳送通知
@@ -29,3 +33,9 @@ flarum-notify:
       title: Gitter 設定 
       description: 前往 <a>gitter.im</a> 房間，點擊「設定」圖示→集成→自定義，將會生成 webhook url
       webhook: Gitter webhook
+    telegram-modal:
+      title: Telegram 設定
+      description: 查閱<aBot>說明</aBot>來配置 bot，然後<aChatId>申請 chat ID</aChatId>。
+      apiKey: Telegram API key
+      botName: Telegram bot 名稱
+      chatId: Telegram chat ID
