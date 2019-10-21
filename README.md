@@ -24,6 +24,7 @@ composer remove csineneo/lang-simplified-chinese
   - antoinefr-money
   - antoinefr-online
   - backtowebsite
+  - clarkwinkelmann-author-change
   - clarkwinkelmann-emojionearea
   - clarkwinkelmann-post-date
   - datitisev-dashboard
