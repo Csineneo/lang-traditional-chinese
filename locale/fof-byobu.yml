@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
-# Sat, 12 Oct 2019 10:16:52 +0800
+# Sat, 26 Oct 2019 11:28:42 +0800
 
 fof-byobu:
   forum:
@@ -34,6 +34,10 @@ fof-byobu:
       settings:
         block_pd: 阻止私密貼文
       byobu_link: 私密貼文
+    notifications:
+      pd_label: 某人將我加入了私密貼文
+      pd_text: "{username} 創建私密貼文並邀請了你"
+
   admin:
     permission:
       create_private_discussions_with_users: 創建私密貼文並可新增參與者
@@ -41,6 +45,9 @@ fof-byobu:
       create_private_discussions_with_blocking_users: 允許新增已阻止私密貼文的會員
       edit_user_recipients: 編輯參與私密討論的參與者
       edit_group_recipients: 編輯參與私密討論的群組
-
     settings:
       byobu_users_page_label: 新增私密貼文至使用者頁面
+
+  notifications:
+    private_discussion_created:
+      title: "[forum-name] 創建私密貼文"

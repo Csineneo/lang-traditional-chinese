@@ -39,7 +39,6 @@ composer remove csineneo/lang-simplified-chinese
   - flagrow-impersonate
   - flagrow-mason
   - flagrow-passport
-  - flagrow-terms
   - flagrow-upload
   - flarum-akismet
   - flarum-approval
@@ -95,6 +94,7 @@ composer remove csineneo/lang-simplified-chinese
   - fof-spamblock
   - fof-stopforumspam
   - fof-subscribed
+  - fof-terms
   - fof-transliterator
   - fof-user-directory
   - fof-userbio

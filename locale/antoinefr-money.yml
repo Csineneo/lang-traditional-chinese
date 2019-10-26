@@ -1,5 +1,5 @@
 # https://github.com/AntoineFr/flarum-ext-money/blob/master/locale/en.yml
-# Sun, 16 Dec 2018 11:41:14 +0800
+# Sat, 26 Oct 2019 11:28:42 +0800
 
 antoinefr-money:
   admin:
@@ -17,5 +17,5 @@ antoinefr-money:
       money_button: 修改資產
     modal:
       title: "{username} 的資產"
-      current: 目前 :
+      current: 目前：
       submit_button: => core.ref.save_changes

@@ -1,5 +1,5 @@
 # https://github.com/clarkwinkelmann/flarum-ext-author-change/blob/master/resources/locale/en.yml
-# Mon, 21 Oct 2019 09:45:33 +0800
+# Sat, 26 Oct 2019 11:28:42 +0800
 
 clarkwinkelmann-author-change:
     forum:
@@ -11,6 +11,10 @@ clarkwinkelmann-author-change:
             search_placeholder: 搜尋用戶
             submit: 儲存
             cancel: 放棄
+        search:
+            placeholder: 搜寻用户
+            type-more: 搜寻需要至少三个字符
+            no-results: 无结果
     admin:
         permissions:
             edit: 更改貼文及回覆作者

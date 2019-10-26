@@ -1,5 +1,5 @@
 # https://github.com/AmauryCarrade/flarum-ext-syndication/blob/master/resources/locale/en.yml
-# Mon, 25 Mar 2019 11:23:39 +0800
+# Sat, 26 Oct 2019 11:28:42 +0800
 
 amaurycarrade-syndication:
   forum:
@@ -21,3 +21,14 @@ amaurycarrade-syndication:
         tag_d_subtitle: "{tag} 節點最新貼文"
         discussion_title: "{discussion_name}"
         discussion_subtitle: "此貼文的最新回覆"
+  admin:
+    settings:
+      title: "訂閱源设定"
+      full-text:
+        label: "全文輸出"
+        help: "如果停用，訂閱源將僅包含摘要，使用者需要前往論壇查看全部內容。"
+        recommendation: "建議啟用此設定以尊重使用 RSS 聚合器的使用者。"
+      html:
+        label: "格式化內容"
+        help: "選定此項以保留 HTML 內容。如果停用，訂閱源將以純文字格式展示。"
+      entries-count: "訂閱源條目數量是多少？"
