@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/subscribed/blob/master/resources/locale/en.yml
-# Tue, 06 Aug 2019 10:56:57 +0800
+# Mon, 04 Nov 2019 10:00:17 +0800
 
 fof-subscribed:
     forum:
@@ -7,13 +7,16 @@ fof-subscribed:
             defaults_label: 預設啟用設定「{setting}」
             forced_label: 強制對全部會員啟用「{setting}」
             notify_discussion_created_label: 有新貼文
+            notify_post_unapproved_label: 發佈新貼需要審核
             notify_user_created_label: 有新人加入
         notifications:
             discussion_created_text: "{username} 發佈了新貼"
+            post_unapproved_text: "{username} 發佈了新貼需要審核"
             user_created_text: "{username} 剛剛加入了論壇"
     admin:
         menu:
             description: 用戶訂閱設定（預設）
         permission:
             subscribe_to_discussion_created: 允許用戶接收新貼文通知
+            subscribe_to_post_unapproved: 允許用戶接收新貼文審核通知
             subscribe_to_user_created: 允許用戶接收新註冊通知
