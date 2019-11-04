@@ -1,0 +1,52 @@
+# https://github.com/kilowhat/flarum-ext-affiliation-links/blob/master/resources/locale/en.yml
+# Mon, 04 Nov 2019 10:00:17 +0800
+
+kilowhat-affiliation-links:
+    admin:
+        settings:
+            title: 行銷連結設定
+
+        titles:
+            rules: 連結規則
+
+        buttons:
+            new-rule: 新增
+            edit-rule: 編輯
+            add-rule: 新增
+            save-rule: 儲存
+            delete-rule: 刪除
+
+        messages:
+            delete-rule-confirmation: 這將永久刪除規則 {match_pattern}，要繼續嗎？
+
+        rules:
+            match-component: 匹配元件
+            match-component-help: 您要匹配的 URL 部分
+            match-type: 匹配類型
+            match-type-help: >
+                用於匹配的策略。
+                "精確" 精確匹配
+                "簡單" 允許使用萬用字元「*」進行匹配
+                "正規表示式" 允許使用正規表示式進行匹配
+            match-pattern: 匹配模式
+            match-pattern-help: >
+                將使用選定類型的方法來匹配給定元件的值。
+                如果選擇「正規表示式」不要忘記分割複。
+            replacement: 替代值
+            replacement-help: >
+                如果匹配則將替換原始 URL。
+                您可以使用 { url } 來取得原始連結（括號喝名稱之間沒有空格）
+                如果使用「正規表示式」，您可以使用 { 1 }, { 2 } 等來取得匹配值
+                值將自動進行 URL 轉義以作為參數使用
+                如果需要取得原始值，請在名稱前加入前綴「raw」（{ rawurl }, { raw1 } 等）
+            comment: 說明（可選，僅用於文檔說明）
+
+        component-options:
+            uri: URI（完整 URL）
+            host: Host（域名）
+            path: Path（路徑）
+
+        type-options:
+            exact: 精準
+            simple: 簡單
+            regex: 正規表示式
