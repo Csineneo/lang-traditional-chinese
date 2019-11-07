@@ -1,0 +1,21 @@
+# https://github.com/FriendsOfFlarum/best-answer/blob/master/resources/locale/en.yml
+# Thu, 07 Nov 2019 09:36:10 +0800
+
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: 為自己的貼文選取最佳回覆
+      best_answer_not_own_discussion: 為他人貼文選取最佳回覆
+    settings:
+      title: FoF 最佳回覆
+      allow_select_own_post: 允許選取自己的回覆
+      select_best_answer_reminder_days: 於 n 天後提醒用戶選取最佳回覆
+  forum:
+    answered_badge: 已解決
+    this_best_answer: 設為最佳回覆
+    remove_best_answer: 移除最佳回覆
+    best_answer_button: 最佳回覆
+    best_answer_label: 由 <a>{username}</a> 選取
+
+    notification:
+      content: 如果您的問題已經解決請選取一個最佳回覆
