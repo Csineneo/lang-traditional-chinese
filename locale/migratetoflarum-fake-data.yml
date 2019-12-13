@@ -1,5 +1,5 @@
 # https://github.com/migratetoflarum/fake-data/blob/master/resources/locale/en.yml
-# Fri, 30 Aug 2019 12:53:27 +0800
+# Fri, 13 Dec 2019 10:07:45 +0800
 
 migratetoflarum-fake-data:
     admin:
@@ -9,3 +9,17 @@ migratetoflarum-fake-data:
             discussion-count: 新增貼文數量
             post-count: 新增回覆數量
             send: 產生資料
+
+    forum:
+        link:
+            generate-replies: 產生假回覆
+
+        generator:
+            title: 產生假回覆
+            user-count: 新增用戶數量
+            post-count: 新增回覆數量
+            send: 擦身資料
+
+    api:
+        no-users-matched: 未找到用戶
+        no-discussions-matched: 未找到貼文
