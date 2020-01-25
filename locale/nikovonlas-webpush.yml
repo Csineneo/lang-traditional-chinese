@@ -1,5 +1,5 @@
 # https://github.com/NikoVonLas/flarum-ext-web-push/blob/master/locale/en.yml
-# Wed, 25 Sep 2019 10:09:12 +0800
+# Sat, 25 Jan 2020 21:04:02 +0800
 
 nikovonlas-webpush:
   forum:
@@ -16,42 +16,42 @@ nikovonlas-webpush:
       user_key: Onesignal user key
       subdomain: Onesignal subdomain
       excerpt: 消息摘要長度
-      autoprompt: 立即顯示權限申請以授權使用者
+      autoprompt: 自動申請（立即顯示權限申請）
   notify:
     like:
-      title: 貼文被讚
-      message: '{from} 讚了你的貼文「{post}」'
+      title: '{from} 讚了你的貼文'
+      message: '{post}'
     mention-post:
-      title: '貼文「{title}」有新回覆'
-      message: '{from} 回覆了你的貼文「{post}」'
+      title: '{from} 回覆了你的貼文'
+      message: '{post}'
     mention:
-      title: '貼文「{title}」提及了你'
-      message: '{from} 在貼文「{post}」提及了你'
+      title: '{from} 提及了你'
+      message: '{post}'
     post:
-      title: '訂閱的貼文「{title}」有新回覆'
-      message: '{from} 回覆了貼文「{post}」'
+      title: '貼文「{title}」有新回覆'
+      message: '@{from}: {post}'
     tag:
       discussion:
-        title: 訂閱的節點有新貼文發佈
-        message: '{from} 發佈了新貼文「{title}」'
+        title: '{title}'
+        message: '@{from} 發佈了新貼文「{title}」'
       post:
-        title: '貼文「{title}」有新回覆'
-        message: '{from} 回覆了貼文「{post}」'
+        title: '{title}'
+        message: '@{from}: {post}'
     rename:
-      title: 貼文被重命名
-      message: '{from} 重命名你的貼文为「{title}」'
+      title: '{title}'
+      message: '@{from} 重命名你的貼文为「{title}」'
     lock:
-      title: 貼文被鎖定
-      message: '{from} 鎖定了你的貼文「{title}」'
+      title: '{title}'
+      message: '@{from} 鎖定了你的貼文「{title}」'
     delete:
-      title: 貼文被删除
-      message: '{from} 刪除了你的貼文「{title}」'
+      title: '{title}'
+      message: '@{from} 刪除了你的貼文「{title}」'
     suspend:
-      title: 账号被停用
-      message: '{from} 停用了你的账号'
+      title: '你的账号被停用'
+      message: '@{from} 停用了你的账号'
     unsuspend:
-      title: 账号已啟用
-      message: '{from} 重新啟用了你的账号'
+      title: '你的账号已重新啟用'
+      message: '@{from} 重新啟用了你的账号'
     flag:
-      title: 有貼文被標記
-      message: '{from} 標記了你的貼文「{post}」'
+      title: '{from} 標記來一篇貼文'
+      message: '{post}'
