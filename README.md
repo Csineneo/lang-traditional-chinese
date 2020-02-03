@@ -127,7 +127,6 @@ composer remove csineneo/lang-simplified-chinese
   - [the-turk-password-strength](https://discuss.flarum.org/d/22624)
   - [tpokorra-post-notification](https://discuss.flarum.org/d/20750)
   - [v17development-flarum-seo](https://discuss.flarum.org/d/18316)
-  - [xmugenx-post-blacklist](https://discuss.flarum.org/d/21750)
   - [zerosonesfun-announce](https://discuss.flarum.org/d/21651)
 
 ### 示例 / Demo
