@@ -1,0 +1,9 @@
+# https://github.com/the-turk/flarum-stargazing-theme/blob/master/locale/en.yml
+# Wed, 05 Feb 2020 13:27:26 +0800
+
+the-turk-stargazing-theme:
+  admin:
+    settings:
+      title:                 Stargazing 主題設定
+      relocateSidebar:       側邊欄置於右側
+      enableStarsBackground: 啟用星空背景
