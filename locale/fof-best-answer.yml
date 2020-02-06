@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/best-answer/blob/master/resources/locale/en.yml
-# Wed, 05 Feb 2020 13:27:26 +0800
+# Thu, 06 Feb 2020 11:31:07 +0800
 
 fof-best-answer:
   admin:
@@ -19,3 +19,8 @@ fof-best-answer:
 
     notification:
       content: 如果您的問題已經解決請選取一個最佳回覆
+      awarded: 您的回覆被 {username} 選為最佳回覆
+      awarded-email: 您的回覆被選為最佳回覆
+      select-email-title: 您的問題解決了嗎？
+      preferences:
+        awarded-best-answer: 當我的回覆被選為最佳回覆時
