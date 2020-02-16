@@ -22,7 +22,7 @@ reflar-cookie-consent:
       buttonBackgroundColor: 按鈕背景颜色
       buttonTextColor: 按鈕文本颜色
 
-    themes:
+      themes:
         blocky: 方形
         edgeless: 無界
         classic: 經典
