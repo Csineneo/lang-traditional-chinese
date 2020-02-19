@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/best-answer/blob/master/resources/locale/en.yml
-# Fri, 14 Feb 2020 11:48:52 +0800
+# Wed, 19 Feb 2020 09:48:40 +0800
 
 fof-best-answer:
   admin:
@@ -10,6 +10,11 @@ fof-best-answer:
       title: FoF 最佳回覆
       allow_select_own_post: 允許選取自己的回覆
       select_best_answer_reminder_days: 於 n 天後提醒用戶選取最佳回覆
+      schedule_on_one_server: 透過 'onOneServer()' 指令作為任務排程器（需要 Redis/Memcache）
+      schedule_stop_overnight: 提醒排程於非社交時間停止執行（伺服器時間 9pm - 8am）
+      schedule_log_output: 輸出排程日誌到日誌存儲
+      remind_tag_ids: 若要僅提醒某些節點，請於此填入節點 ID（逗號分隔）
+      use_alt_ui: 使用新樣式（最佳回覆按鈕顯示於貼文頁腳）
   forum:
     answered_badge: 已解決
     this_best_answer: 設為最佳回覆
