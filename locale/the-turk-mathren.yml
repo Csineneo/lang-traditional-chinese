@@ -1,5 +1,4 @@
-# https://github.com/the-turk/flarum-mathren/blob/v02/locale/en.yml
-# Wed, 19 Feb 2020 09:48:40 +0800
+# https://github.com/the-turk/flarum-mathren/blob/v02/locale/en.yml # Wed, 19 Feb 2020 09:48:40 +0800
 
 the-turk-mathren:
     admin:
@@ -19,8 +18,8 @@ the-turk-mathren:
             delimitersHelp:           以逗號分隔，<strong>%e%</strong> 表示數學表示式。
             mainBlockDelimiter:       用於塊表示式的主要 <strong>BBCode</strong> 定界符
             mainInlineDelimiter:      用於行內表示式的主要 <strong>BBCode</strong> 定界符
-            aliasBlockDelimiters:     塊表示式的別名定界符
-            aliasInlineDelimiters:    行內表示式的別名定界符
+            aliasBlockDelimiters:     塊表示式的定界符別名
+            aliasInlineDelimiters:    行內表示式的定界符別名
             aliasDelimitersHelp:      >-
                         它們是<em>主要 BBCode 定界符</em>的<strong>別名</strong>。如果在你的定界符別名列表中有特殊的定界符（比如 <code>$$</code>），
                         MathRen 將會在儲存貼文時掃描整篇貼文來查找額外的定界符，並將用主要 BBCode 定界符替換它們，這將導致儲存貼文的時間變長。
@@ -35,7 +34,7 @@ the-turk-mathren:
             decisiveKeywordsInfo:     此列表中的第一個關鍵詞將作為預設文字編輯器。
             decisiveKeywordsWarning:  不要使用特殊字符！不然會拋出異常。
             ignoredTags:              遞歸時需要忽略的 DOM 節點類型列表
-            ignoredClasses:           遞歸時需要忽略的 DOM 節點類名列表List of DOM node class names to ignore when recursing through
+            ignoredClasses:           遞歸時需要忽略的 DOM 節點類名列表
             ignoredClassesInfo:       列表中的第一個類名將作為預設包裹被忽略的表示式。
             outputMode:               輸出模式
             outputModeHelp:           選擇用於輸出的標示語言
