@@ -1,5 +1,5 @@
 # https://github.com/the-turk/flarum-diff/blob/master/locale/en.yml
-# Thu, 20 Feb 2020 10:37:09 +0800
+# Sun, 23 Feb 2020 09:55:40 +0800
 
 the-turk-diff:
     forum:
@@ -17,7 +17,7 @@ the-turk-diff:
             displayMode:            顯示模式 (HTML)
             customHTML:             無行號的彩色自定義視圖
             tabularHTML:            帶行號的彩色列表視圖
-            renderMode:             渲染模式
+            renderMode:             顯示模式
             inline:                 行內 (HTML)
             sideBySide:             並排 (HTML)
             neighborLines:          相鄰行
@@ -30,6 +30,8 @@ the-turk-diff:
             charLevel:              字
             seperateBlock:          於 HTML 渲染器中在差異塊之間顯示分隔符
             notice:                 <strong>細節級別</strong>以及<strong>相鄰行數</strong>設置的變更不會影響之前的差異計算。
+            enableSyncScroll:       於並排模式下啟用同步滾動
+            allowSwitch:            允許切換顯示模式
         permissions:
             viewEditHistory:        查看編輯歷史
             deleteEditHistory:      刪除其他人的修訂版本
