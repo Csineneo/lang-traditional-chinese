@@ -123,6 +123,7 @@ composer remove csineneo/lang-simplified-chinese
   - [migratetoflarum-vbulletin-redirects](https://github.com/migratetoflarum/vbulletin-redirects)
   - [michaelbelgium-mybb-to-flarum](https://discuss.flarum.org/d/5506)
   - [nikovonlas-webpush](https://discuss.flarum.org/d/20784)
+  - [nomiscz-auth-wechat](https://discuss.flarum.org/d/22888)
   - [reflar-cookie-consent](https://discuss.flarum.org/d/10395)
   - [reflar-doorman](https://discuss.flarum.org/d/17845)
   - [reflar-level-ranks](https://discuss.flarum.org/d/15052)

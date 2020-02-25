@@ -1,0 +1,12 @@
+# https://github.com/NomisCZ/flarum-ext-auth-wechat/blob/master/resources/locale/zh-hans.yml
+# Tue, 25 Feb 2020 11:29:15 +0800
+
+nomiscz-auth-wechat:
+  forum:
+    buttons:
+      login: 透過微信登入
+  admin:
+    settings:
+      title: 微信登入設定
+      api_app_id: API App ID
+      api_app_secret: API App Secret
