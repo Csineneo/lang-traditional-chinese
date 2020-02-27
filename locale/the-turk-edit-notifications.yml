@@ -4,13 +4,13 @@
 the-turk-edit-notifications:
     forum:
       notifications:
-        interacted_post_edited_text:          "{username} 编辑了他的帖子"
-        post_edited_text:                     "{username} 编辑了你的帖子"
+        interacted_post_edited_text:          "{username} 編輯了他/她的貼文"
+        post_edited_text:                     "{username} 編輯了你的貼文"
       settings:
-        notify_interacted_post_edited_label:  某人编辑了我参与讨论的帖子
-        notify_post_edited_label:             某人编辑了我的帖子
+        notify_interacted_post_edited_label:  某人編輯了我參與過的貼文
+        notify_post_edited_label:             某人編輯了我的貼文
 
     admin:
       settings:
-        title:                                编辑通知设置
-        enableInteracts:                      为参与讨论的帖子启用编辑通知
+        title:                                編輯通知設定
+        enableInteracts:                      為參與過的貼文啟用編輯通知
