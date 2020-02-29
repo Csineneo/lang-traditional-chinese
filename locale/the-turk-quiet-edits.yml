@@ -1,0 +1,12 @@
+# https://github.com/the-turk/flarum-quiet-edits/blob/master/locale/en.yml
+# Sat, 29 Feb 2020 09:36:14 +0800
+
+the-turk-quiet-edits:
+    admin:
+      settings:
+        title:                  静默编辑设定
+        gracePeriod:            寬限期（秒）
+        gracePeriodHelp:        發表貼文後的寬限期內進行的編輯不被視為正式的編輯。
+        onlyUnsigned:           僅允許 <strong>無符號整數</strong>！
+        ignoreCase:             忽略大小寫差異
+        ignoreWhitespace:       忽略空白差異
