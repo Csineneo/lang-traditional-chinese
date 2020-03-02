@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
-# Wed, 19 Feb 2020 09:48:40 +0800
+# Mon, 02 Mar 2020 10:30:41 +0800
 
 fof-byobu:
   forum:
@@ -61,7 +61,8 @@ fof-byobu:
       view_private_discussions-when-flagged: 若有旗標則允許查看其他人的私密貼文
 
     settings:
-      byobu_users_page_label: 新增私密貼文至使用者頁面
+      use_tag_slug: 指定節點的貼文將被強制作為私密貼文
+      use_tag_slug_help: 留空以允許使用者自己選擇節點，僅適用於新增的私密貼文
 
   notifications:
     private_discussion_created:
