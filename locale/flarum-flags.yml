@@ -1,5 +1,5 @@
 # https://github.com/flarum/lang-english/blob/master/locale/flarum-flags.yml
-# Sat, 12 Oct 2019 10:16:52 +0800
+# Thu, 05 Mar 2020 10:53:00 +0800
 
 flarum-flags:
 
@@ -17,6 +17,7 @@ flarum-flags:
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
+      flag_own_posts_label: 允許使用者舉報自己的貼文
       guidelines_url_label: 論壇守則連結
       title: 舉報設定
 
@@ -27,11 +28,13 @@ flarum-flags:
     flag_post:
       confirmation_message: 感謝舉報，管理員稍後會審閱此帖。
       dismiss_button: => core.ref.okay
+      reason_details_placeholder: 更多資訊（可選）
       reason_inappropriate_label: 不雅
       reason_inappropriate_text: "此帖包含攻擊性、侮辱性詞句或違反了<a>論壇守則</a>"
+      reason_missing_message: 請為管理員提供更多資訊
       reason_off_topic_label: "離題"
       reason_off_topic_text: 此帖與當前討論主題無關
-      reason_other_label: 其他
+      reason_other_label: 其他（請予以說明）
       reason_spam_label: 垃圾
       reason_spam_text: 這是廣告貼
       submit_button: => flarum-flags.ref.flag_post
