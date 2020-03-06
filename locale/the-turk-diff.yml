@@ -1,5 +1,5 @@
 # https://github.com/the-turk/flarum-diff/blob/master/locale/en.yml
-# Sun, 23 Feb 2020 09:55:40 +0800
+# Fri, 06 Mar 2020 10:30:12 +0800
 
 the-turk-diff:
     forum:
@@ -7,31 +7,45 @@ the-turk-diff:
         revisionInfo:               "已編輯 {revisionCount} 次, 最新版顯示於頂部"
         emptyText:                  無修訂版本
         confirmDelete:              去定要從歷史中刪除這個修訂版本嗎？
-        deleteSuccessMessage:       修訂版本已刪除
-        deleteErrorMessage:         修訂版本刪除失敗
+        confirmRollback:            您確定要轉返至這個修訂版本嗎？這個修訂之後編輯的內容將被永久刪除。
+        deleteSuccessMessage:       修訂版本已刪除。
+        deleteErrorMessage:         修訂版本刪除失敗。
+        rollbackSuccessMessage:     您的修改已回復。
+        rollbackErrorMessage:       回復失敗。
         deletedText:                （已刪除）
         deletedTooltip:             "{username} 於 {ago} 刪除來這個修訂版本"
+        optionsButton:              選項
+        rollbackButton:             轉返至這個修訂版本
+        noDiff:                     沒有差異。
     admin:
         settings:
             title:                  Diff 設定
             displayMode:            顯示模式 (HTML)
-            customHTML:             無行號的彩色自定義視圖
-            tabularHTML:            帶行號的彩色列表視圖
+            customHTML:             自定義視圖
+            tabularHTML:            列表視圖
             renderMode:             顯示模式
             inline:                 行內 (HTML)
             sideBySide:             並排 (HTML)
+            combined:               合併（HTML）
             neighborLines:          相鄰行
             neighborLinesHelp:      指定想要顯示的相鄰行行數。
             onlyUnsigned:           僅允許<strong>無符號整數</strong>！
+            usePoint:               使用<strong>點</strong>作為小數點
             detailLevel:            預設級別
             noneLevel:              無
             lineLevel:              行
             wordLevel:              詞
             charLevel:              字
             seperateBlock:          於 HTML 渲染器中在差異塊之間顯示分隔符
-            notice:                 <strong>細節級別</strong>以及<strong>相鄰行數</strong>設置的變更不會影響之前的差異計算。
             enableSyncScroll:       於並排模式下啟用同步滾動
             allowSwitch:            允許切換顯示模式
+            mainPostOnly:           僅儲存主貼修訂版本
+            dbOptimisation:         資料庫最佳化
+            archiveOlds:            存檔舊的修訂版本
+            archiveOldsInfo:        如果 <strong>x ≥A</strong>，則這個貼文的前 <strong>y = mx + b</strong> 個修訂版本將被合併壓縮儲存。<strong>x</strong> 為貼文的修訂版本數。浮點值 <strong>y</strong> 將被簡化至下一個最小整數值。
+            useCrons:               透過定時任務存檔舊的修訂版本
+            useCronsHelp:           您必須將定時任務添加到伺服器中才能使此選項生效，它將於每週日 02:00AM 執行。如果停用此選項並啟用上面的選項，在修訂相關貼文時，將掃描全部貼文的修訂版本以進行存檔。
+            archiveInfo:            請注意，您可以同時停用這兩個選項，透過執行 <code>php flarum diff:archive</code> 指令來手動存檔舊的修訂版本。
         permissions:
             viewEditHistory:        查看編輯歷史
             deleteEditHistory:      刪除其他人的修訂版本
