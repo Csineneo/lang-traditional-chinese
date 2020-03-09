@@ -1,10 +1,12 @@
 # https://github.com/migratetoflarum/fake-data/blob/master/resources/locale/en.yml
-# Fri, 13 Dec 2019 10:07:45 +0800
+# Mon, 09 Mar 2020 11:22:59 +0800
 
 migratetoflarum-fake-data:
     admin:
         generator:
             title: 產生假資料
+            bulk-mode: 大批量模式
+            bulk-mode-description: 產生一個隨機值並重複使用
             user-count: 新增用戶數量
             discussion-count: 新增貼文數量
             post-count: 新增回覆數量
