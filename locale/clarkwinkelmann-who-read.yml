@@ -1,5 +1,5 @@
 # https://github.com/clarkwinkelmann/flarum-ext-who-read/blob/master/resources/locale/en.yml
-# Wed, 11 Mar 2020 11:49:38 +0800
+# Fri, 13 Mar 2020 10:56:27 +0800
 
 clarkwinkelmann-who-read:
     forum:
@@ -11,11 +11,9 @@ clarkwinkelmann-who-read:
             show: 顯示其它 {count} 人
             info: 還有 {count} 人
         footer:
-            to-here-some-stopped: "{total} 人看過這個貼文，{stopped} 人沒有瀏覽更多"
-            to-here-none-stopped: "{total} 人看過這個貼文，也都瀏覽了更多貼文"
-            to-here-nobody: "沒有讓看過這個貼文"
-            to-end: "{total} 人全部看完"
-            to-end-nobody: "沒有人看完全部"
+            read-this-post: "{0} 沒人看過這篇貼文|[1,Inf] {count} 人看過這篇貼文"
+            read-no-further: "{0} 全都看過更多|[1,Inf] {count} 沒有繼續瀏覽"
+            read-to-end: "{0} 沒人全部看完|[1,Inf] {count} 人全部看完"
         controls:
             set-unread: 標記為未讀
             remove-unread: 移除未讀
