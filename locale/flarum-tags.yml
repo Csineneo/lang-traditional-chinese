@@ -1,5 +1,5 @@
 # https://github.com/flarum/lang-english/blob/master/locale/flarum-tags.yml
-# Sat, 12 Oct 2019 10:16:52 +0800
+# Sun, 15 Mar 2020 10:28:57 +0800
 
 flarum-tags:
 
@@ -60,6 +60,11 @@ flarum-tags:
   # Translations in this namespace are used by the forum user interface.
   forum:
 
+    # These translations are displayed on the page that lists all tags.
+    all_tags:
+      meta_description_text: 全部節點
+      meta_title_text: => flarum-tags.ref.tags
+
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
       choose_primary_placeholder: "選擇主節點|選擇 {count} 個主節點"
@@ -91,6 +96,10 @@ flarum-tags:
       added_and_removed_tags_text: "{username} 添加節點 {tagsAdded} 並移除節點 {tagsRemoved}"
       removed_tags_text: "{username} 移除節點 {tagsRemoved}"
       tags_text: "{tags}|{tags}"
+
+    # These translations are used when visiting a single tag's discussion list.
+    tag:
+      meta_description_text: "{tag} 節點下的全部貼文"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
