@@ -18,7 +18,7 @@ flarum-tags:
     edit_tag:
       color_label: => core.ref.color
       delete_tag_button: 刪除節點
-      delete_tag_confirmation: "確定要刪除此幾點？此節點下的貼文將不會被刪除。"
+      delete_tag_confirmation: "確定要刪除此節點？此節點下的貼文將不會被刪除。"
       description_label: 說明
       hide_label: 從「全部貼文」中隱藏
       icon_label: => core.ref.icon
