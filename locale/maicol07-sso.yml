@@ -1,5 +1,5 @@
 # https://github.com/maicol07/flarum-ext-sso/blob/master/locale/en.yml
-# Tue, 15 Oct 2019 09:38:19 +0800
+# Mon, 23 Mar 2020 10:55:41 +0800
 
 maicol07-sso:
   admin:
@@ -8,3 +8,5 @@ maicol07-sso:
       signup_url: "註冊連結"
       login_url: "登入連結"
       logout_url: "登出連結"
+      disable_login_btn: "停用登入按鈕"
+      disable_signup_btn: "停用註冊按鈕"
