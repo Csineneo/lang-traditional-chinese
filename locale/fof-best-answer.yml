@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/best-answer/blob/master/resources/locale/en.yml
-# Wed, 19 Feb 2020 09:48:40 +0800
+# Mon, 23 Mar 2020 10:55:41 +0800
 
 fof-best-answer:
   admin:
@@ -23,9 +23,11 @@ fof-best-answer:
     best_answer_label: 最佳回覆由 <a>{username}</a> 於 {time_set} 選取
 
     notification:
+      best_answer_in_discussion: "{username} 為這個貼文選取了一個最佳回覆"
       content: 如果您的問題已經解決請選取一個最佳回覆
       awarded: 您的回覆被 {username} 選為最佳回覆
       awarded_email: 您的回覆被選為最佳回覆
       select_email_title: 您的問題解決了嗎？
       preferences:
         awarded_best_answer: 當我的回覆被選為最佳回覆時
+        best_answer_in_discussion: 當我參與的貼文有最佳回覆時
