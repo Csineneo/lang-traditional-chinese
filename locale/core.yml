@@ -1,5 +1,5 @@
 # https://github.com/flarum/lang-english/blob/master/locale/core.yml
-# Thu, 05 Mar 2020 10:53:00 +0800
+# Mon, 23 Mar 2020 10:55:41 +0800
 
 core:
 
@@ -415,7 +415,7 @@ core:
     user_controls:
       button: 操作 
       delete_button: => core.ref.delete
-      delete_confirmation: "確定要刪除此帳號？此帳戶下的貼文均將被刪除。"
+      delete_confirmation: "確定要刪除此帳號？用戶的貼文將不會被刪除。"
       delete_error_message: "刪除帳號 <i>{username} ({email})</i> 失敗"
       delete_success_message: "帳號 <i>{username} ({email})</i> 已刪除"
       edit_button: => core.ref.edit
