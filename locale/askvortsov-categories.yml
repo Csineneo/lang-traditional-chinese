@@ -1,5 +1,5 @@
 # https://github.com/askvortsov1/flarum-categories/blob/master/resources/locale/en.yml
-# Mon, 23 Mar 2020 10:55:41 +0800
+# Wed, 25 Mar 2020 10:22:42 +0800
 
 askvortsov-categories:
   admin:
@@ -7,6 +7,7 @@ askvortsov-categories:
       categories_label: 分類
     labels:
       keep_tags_nav: 側邊導航保留節點頁面連結？
+      child_bare_icon: 子分類圖示不顯示為圓形？
       full_page_desktop: 側邊導航要收起嗎？這將會同時隱藏掛件（比如論壇統計）。
       parent_remove_icon: 隱藏頂級節點的圖示？
       parent_remove_description: 隱藏頂級節點的描述？
