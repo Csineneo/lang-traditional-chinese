@@ -4,4 +4,4 @@
 askvortsov-help-tags:
   admin:
     permissions:
-      view_tag_label: ch查看節點
+      view_tag_label: 查看節點
