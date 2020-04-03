@@ -1,5 +1,5 @@
 # https://github.com/FriendsOfFlarum/byobu/blob/master/resources/locale/en.yml
-# Mon, 02 Mar 2020 10:30:41 +0800
+# Fri, 03 Apr 2020 09:59:29 +0800
 
 fof-byobu:
   forum:
@@ -12,6 +12,8 @@ fof-byobu:
       edit_recipients: 編輯參與者
       send_pd: "給 {username} 傳送訊息"
       cancel: 取消
+      remove_from_discussion: 離開私密貼文
+      make_public: 公開私密貼文
     composer_private_discussion:
       submit_button: 發布私密貼文
       title_placeholder: 私密貼文標題
@@ -19,7 +21,6 @@ fof-byobu:
       recipients: "僅 {count} 人可見"
       user_deleted: --已刪除--
     nav:
-      private_discussions: 私密貼文
       start_button: 新增私密貼文
     input:
       search_recipients: 輸入 ID 前三個字符進行搜尋
@@ -38,6 +39,7 @@ fof-byobu:
         added_and_removed: "{username} 新增「{added}」並移除「{removed}」"
         added: "{username} 新增「{added}」"
         removed: "{username} 移除「{removed}」"
+        removed_self: "{username} 離開私密貼文"
     user:
       settings:
         block_pd: 阻止私密貼文
@@ -46,10 +48,17 @@ fof-byobu:
       dropdown_label: 私密貼文
 
     notifications:
-      pd_label: 某人將我加入了私密貼文
-      pd_reply_label: 某人回覆了我參與的私密貼文
+      pd_label: 有人將我加入了私密貼文
+      pd_reply_label: 有人回覆了我參與的私密貼文
       pd_reply_text: "{username} 回覆了你參與的私密貼文"
       pd_text: "{username} 創建私密貼文並邀請了你"
+      pd_user_left_label: 我參與的私密貼文有人離開
+      pd_user_left_text: "{username} 離開來私密貼文"
+      pd_added_text: "{username} 將您加入私密貼文"
+      pd_added_label: "有人將我加入私密貼文"
+
+  confirm:
+      make_public: 這將把私密貼文公開給所有人，請在繼續前謹慎考慮這個動作是否正確。
 
   admin:
     permission:
@@ -58,6 +67,7 @@ fof-byobu:
       create_private_discussions_with_blocking_users: 允許新增已阻止私密貼文的會員
       edit_user_recipients: 編輯參與私密討論的參與者
       edit_group_recipients: 編輯參與私密討論的群組
+      make_private_into_public: 轉換私密貼文為公開貼文
       view_private_discussions-when-flagged: 若有旗標則允許查看其他人的私密貼文
 
     settings:
@@ -66,6 +76,10 @@ fof-byobu:
 
   notifications:
     private_discussion_created:
-      title: "[私密貼文] 某人創建私密貼文並邀請你參與"
+      title: "[私密貼文] 有人創建私密貼文並邀請你參與"
     private_discussion_replied:
-      title: "[私密貼文] 某人回覆了私密貼文"
+      title: "[私密貼文] 有人回覆了私密貼文"
+    recipient_removed:
+      title: "[私密貼文] 有人離開來私密貼文"
+  private_discussion_added:
+      title: "[私密貼文] 有人將您加入私密貼文"
