@@ -17,8 +17,8 @@ askvortsov-categories:
     headings:
       nav: 導航
       layout: 樣式
-      parent_display: 父類顯示
-      child_display: 子類顯示
+      parent_display: 顯示父分類
+      child_display: 顯示子分類
     title: 分類設定
   forum:
     categories:
