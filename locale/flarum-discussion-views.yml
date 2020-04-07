@@ -1,5 +1,5 @@
 # https://github.com/MichaelBelgium/flarum-discussion-views/blob/master/locale/en.yml
-# Mon, 03 Feb 2020 13:37:46 +0800
+# Tue, 07 Apr 2020 08:24:09 +0800
 
 core:
   forum:
@@ -17,7 +17,8 @@ flarum_discussion_views:
       resetviews_button: 重設瀏覽次數
   admin:
     permissions:
-      reset_views_label: 設定貼文瀏覽次數
+      can_reset_views: 重設貼文瀏覽次數
+      can_view_number: 查看貼文瀏覽次數
     settings:
       title: 瀏覽次數設定
       track_unique: 追蹤唯一瀏覽次數
