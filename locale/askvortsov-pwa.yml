@@ -1,11 +1,11 @@
 # https://github.com/askvortsov1/flarum-pwa/blob/master/resources/locale/en.yml
-# Fri, 03 Apr 2020 09:59:29 +0800
+# Fri, 24 Apr 2020 10:20:18 +0800
 
 askvortsov-pwa:
   admin:
     nav:
       pwa_button: PWA
-      pwa_text: 將 Flarum 配置為 PWA，可安裝於行動裝置。我們提供一些狀態檢查，但是最佳的測試方法是啟用並安裝它（請搜尋一下如何安裝 PWA）。同時，請注意「安裝這個 PWA」彈出是由瀏覽器控制，無法更改。我強烈建議在您的網站文檔中增加如何安裝 PWA 的說明。
+      pwa_text: 將 Flarum 配置為 PWA，可安裝於行動裝置。
     pwa:
       enable_label: 啟用？
       about:
