@@ -1,5 +1,5 @@
 # https://github.com/flarum/lang-english/blob/master/locale/core.yml
-# Mon, 23 Mar 2020 10:55:41 +0800
+# Fri, 08 May 2020 09:04:52 +0800
 
 core:
 
@@ -76,6 +76,7 @@ core:
       color_label: => core.ref.color
       delete_button: 刪除群組
       delete_confirmation: "確定是否刪除此群組？群組成員不會被刪除。"
+      hide_label: 隱藏群組
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: 名稱
@@ -169,6 +170,7 @@ core:
       sign_up_label: 註冊帳戶
       start_discussions_label: 新增貼文
       view_discussions_label: 查看貼文
+      view_hidden_groups_label: 查看隱藏群組
       view_last_seen_at_label: 查看最後活動時間
       view_post_ips_label: 查看 IP 地址
       view_user_list_label: 查看會員列表
@@ -342,8 +344,10 @@ core:
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
+      delete_confirmation: "您確定要永久刪除這篇貼文嗎？這個動作將無法撤回。"
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
+      hide_confirmation: "您確定要刪除這篇貼文嗎？"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
