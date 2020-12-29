@@ -410,7 +410,6 @@ core:
       joined_date_text: "加入於 {ago}"
       online_text: 正在線上
       posts_empty_text: 暫無回覆。
-      posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       posts_link: 回覆
       settings_link: => core.ref.settings
